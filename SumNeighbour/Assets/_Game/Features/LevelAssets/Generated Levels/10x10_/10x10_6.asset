@@ -1,0 +1,518 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e61401864530ba347aba0fcb7ea2b74c, type: 3}
+  m_Name: 10x10_6
+  m_EditorClassIdentifier: 
+  AverageNumberOfNeighbours: 2.7
+  NumberOfStartingNodes: 4
+  NodeGraph:
+    _nodes:
+    - _nodeId: 0
+      _neighbourIds: 010000000a000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 0, y: 0, z: 0}
+    - _nodeId: 1
+      _neighbourIds: 00000000020000000b000000
+      _currentValue: 11
+      _nodeType: 0
+      _position: {x: 1, y: 0, z: 0}
+    - _nodeId: 2
+      _neighbourIds: 0300000001000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 2, y: 0, z: 0}
+    - _nodeId: 3
+      _neighbourIds: 02000000040000000d000000
+      _currentValue: 20
+      _nodeType: 0
+      _position: {x: 3, y: 0, z: 0}
+    - _nodeId: 4
+      _neighbourIds: 05000000030000000e000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 4, y: 0, z: 0}
+    - _nodeId: 5
+      _neighbourIds: 0600000004000000
+      _currentValue: 15
+      _nodeType: 0
+      _position: {x: 5, y: 0, z: 0}
+    - _nodeId: 6
+      _neighbourIds: 0700000005000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 6, y: 0, z: 0}
+    - _nodeId: 7
+      _neighbourIds: 0600000008000000
+      _currentValue: 13
+      _nodeType: 0
+      _position: {x: 7, y: 0, z: 0}
+    - _nodeId: 8
+      _neighbourIds: 0700000009000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 8, y: 0, z: 0}
+    - _nodeId: 9
+      _neighbourIds: 0800000013000000
+      _currentValue: 7
+      _nodeType: 0
+      _position: {x: 9, y: 0, z: 0}
+    - _nodeId: 10
+      _neighbourIds: 000000000b00000014000000
+      _currentValue: 12
+      _nodeType: 0
+      _position: {x: 0, y: 1, z: 0}
+    - _nodeId: 11
+      _neighbourIds: 010000000a0000000c000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 1, y: 1, z: 0}
+    - _nodeId: 12
+      _neighbourIds: 0d0000000b000000
+      _currentValue: 8
+      _nodeType: 0
+      _position: {x: 2, y: 1, z: 0}
+    - _nodeId: 13
+      _neighbourIds: 0c000000030000000e00000017000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 3, y: 1, z: 0}
+    - _nodeId: 14
+      _neighbourIds: 040000000d0000000f00000018000000
+      _currentValue: 26
+      _nodeType: 0
+      _position: {x: 4, y: 1, z: 0}
+    - _nodeId: 15
+      _neighbourIds: 0e00000019000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 5, y: 1, z: 0}
+    - _nodeId: 16
+      _neighbourIds: 11000000
+      _currentValue: 7
+      _nodeType: 0
+      _position: {x: 6, y: 1, z: 0}
+    - _nodeId: 17
+      _neighbourIds: 12000000100000001b000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 7, y: 1, z: 0}
+    - _nodeId: 18
+      _neighbourIds: 13000000110000001c000000
+      _currentValue: 15
+      _nodeType: 0
+      _position: {x: 8, y: 1, z: 0}
+    - _nodeId: 19
+      _neighbourIds: 0900000012000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 9, y: 1, z: 0}
+    - _nodeId: 20
+      _neighbourIds: 0a000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 0, y: 2, z: 0}
+    - _nodeId: 21
+      _neighbourIds: 160000001f000000
+      _currentValue: 5
+      _nodeType: 0
+      _position: {x: 1, y: 2, z: 0}
+    - _nodeId: 22
+      _neighbourIds: 170000001500000020000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 2, y: 2, z: 0}
+    - _nodeId: 23
+      _neighbourIds: 180000000d0000001600000021000000
+      _currentValue: 20
+      _nodeType: 0
+      _position: {x: 3, y: 2, z: 0}
+    - _nodeId: 24
+      _neighbourIds: 0e000000170000001900000022000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 4, y: 2, z: 0}
+    - _nodeId: 25
+      _neighbourIds: 180000000f00000023000000
+      _currentValue: 13
+      _nodeType: 0
+      _position: {x: 5, y: 2, z: 0}
+    - _nodeId: 26
+      _neighbourIds: 1b00000024000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 6, y: 2, z: 0}
+    - _nodeId: 27
+      _neighbourIds: 1a000000110000001c00000025000000
+      _currentValue: 24
+      _nodeType: 0
+      _position: {x: 7, y: 2, z: 0}
+    - _nodeId: 28
+      _neighbourIds: 120000001b0000001d00000026000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 8, y: 2, z: 0}
+    - _nodeId: 29
+      _neighbourIds: 1c00000027000000
+      _currentValue: 12
+      _nodeType: 0
+      _position: {x: 9, y: 2, z: 0}
+    - _nodeId: 30
+      _neighbourIds: 1f00000028000000
+      _currentValue: 11
+      _nodeType: 0
+      _position: {x: 0, y: 3, z: 0}
+    - _nodeId: 31
+      _neighbourIds: 150000001e0000002000000029000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 1, y: 3, z: 0}
+    - _nodeId: 32
+      _neighbourIds: 1f00000021000000160000002a000000
+      _currentValue: 16
+      _nodeType: 0
+      _position: {x: 2, y: 3, z: 0}
+    - _nodeId: 33
+      _neighbourIds: 2200000017000000200000002b000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 3, y: 3, z: 0}
+    - _nodeId: 34
+      _neighbourIds: 1800000021000000230000002c000000
+      _currentValue: 13
+      _nodeType: 0
+      _position: {x: 4, y: 3, z: 0}
+    - _nodeId: 35
+      _neighbourIds: 2400000019000000220000002d000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 5, y: 3, z: 0}
+    - _nodeId: 36
+      _neighbourIds: 230000001a00000025000000
+      _currentValue: 12
+      _nodeType: 0
+      _position: {x: 6, y: 3, z: 0}
+    - _nodeId: 37
+      _neighbourIds: 1b00000026000000240000002f000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 7, y: 3, z: 0}
+    - _nodeId: 38
+      _neighbourIds: 250000001c00000027000000
+      _currentValue: 20
+      _nodeType: 0
+      _position: {x: 8, y: 3, z: 0}
+    - _nodeId: 39
+      _neighbourIds: 1d00000026000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 9, y: 3, z: 0}
+    - _nodeId: 40
+      _neighbourIds: 290000001e000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 0, y: 4, z: 0}
+    - _nodeId: 41
+      _neighbourIds: 1f0000002a00000028000000
+      _currentValue: 15
+      _nodeType: 0
+      _position: {x: 1, y: 4, z: 0}
+    - _nodeId: 42
+      _neighbourIds: 2b000000200000002900000034000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 2, y: 4, z: 0}
+    - _nodeId: 43
+      _neighbourIds: 210000002a0000002c00000035000000
+      _currentValue: 16
+      _nodeType: 0
+      _position: {x: 3, y: 4, z: 0}
+    - _nodeId: 44
+      _neighbourIds: 2b000000220000002d000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 4, y: 4, z: 0}
+    - _nodeId: 45
+      _neighbourIds: 230000002c0000002e000000
+      _currentValue: 8
+      _nodeType: 0
+      _position: {x: 5, y: 4, z: 0}
+    - _nodeId: 46
+      _neighbourIds: 2f0000002d00000038000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 6, y: 4, z: 0}
+    - _nodeId: 47
+      _neighbourIds: 300000002e0000002500000039000000
+      _currentValue: 22
+      _nodeType: 0
+      _position: {x: 7, y: 4, z: 0}
+    - _nodeId: 48
+      _neighbourIds: 310000002f0000003a000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 8, y: 4, z: 0}
+    - _nodeId: 49
+      _neighbourIds: 30000000
+      _currentValue: 4
+      _nodeType: 0
+      _position: {x: 9, y: 4, z: 0}
+    - _nodeId: 50
+      _neighbourIds: 330000003c000000
+      _currentValue: 15
+      _nodeType: 0
+      _position: {x: 0, y: 5, z: 0}
+    - _nodeId: 51
+      _neighbourIds: 320000003d000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 1, y: 5, z: 0}
+    - _nodeId: 52
+      _neighbourIds: 2a000000350000003e000000
+      _currentValue: 12
+      _nodeType: 0
+      _position: {x: 2, y: 5, z: 0}
+    - _nodeId: 53
+      _neighbourIds: 2b0000003600000034000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 3, y: 5, z: 0}
+    - _nodeId: 54
+      _neighbourIds: 350000003700000040000000
+      _currentValue: 14
+      _nodeType: 0
+      _position: {x: 4, y: 5, z: 0}
+    - _nodeId: 55
+      _neighbourIds: 3800000036000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 5, y: 5, z: 0}
+    - _nodeId: 56
+      _neighbourIds: 39000000370000002e000000
+      _currentValue: 13
+      _nodeType: 0
+      _position: {x: 6, y: 5, z: 0}
+    - _nodeId: 57
+      _neighbourIds: 2f000000380000003a000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 7, y: 5, z: 0}
+    - _nodeId: 58
+      _neighbourIds: 30000000390000003b00000044000000
+      _currentValue: 21
+      _nodeType: 0
+      _position: {x: 8, y: 5, z: 0}
+    - _nodeId: 59
+      _neighbourIds: 3a000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 9, y: 5, z: 0}
+    - _nodeId: 60
+      _neighbourIds: 3200000046000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 0, y: 6, z: 0}
+    - _nodeId: 61
+      _neighbourIds: 330000003e00000047000000
+      _currentValue: 12
+      _nodeType: 0
+      _position: {x: 1, y: 6, z: 0}
+    - _nodeId: 62
+      _neighbourIds: 340000003d0000003f000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 2, y: 6, z: 0}
+    - _nodeId: 63
+      _neighbourIds: 3e0000004000000049000000
+      _currentValue: 15
+      _nodeType: 0
+      _position: {x: 3, y: 6, z: 0}
+    - _nodeId: 64
+      _neighbourIds: 3f0000003600000041000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 4, y: 6, z: 0}
+    - _nodeId: 65
+      _neighbourIds: 40000000420000004b000000
+      _currentValue: 16
+      _nodeType: 0
+      _position: {x: 5, y: 6, z: 0}
+    - _nodeId: 66
+      _neighbourIds: 4100000043000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 6, y: 6, z: 0}
+    - _nodeId: 67
+      _neighbourIds: 4200000044000000
+      _currentValue: 7
+      _nodeType: 0
+      _position: {x: 7, y: 6, z: 0}
+    - _nodeId: 68
+      _neighbourIds: 3a00000045000000430000004e000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 8, y: 6, z: 0}
+    - _nodeId: 69
+      _neighbourIds: 440000004f000000
+      _currentValue: 14
+      _nodeType: 0
+      _position: {x: 9, y: 6, z: 0}
+    - _nodeId: 70
+      _neighbourIds: 3c0000004700000050000000
+      _currentValue: 15
+      _nodeType: 0
+      _position: {x: 0, y: 7, z: 0}
+    - _nodeId: 71
+      _neighbourIds: 48000000460000003d00000051000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 1, y: 7, z: 0}
+    - _nodeId: 72
+      _neighbourIds: 4700000049000000
+      _currentValue: 5
+      _nodeType: 0
+      _position: {x: 2, y: 7, z: 0}
+    - _nodeId: 73
+      _neighbourIds: 3f000000480000004a00000053000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 3, y: 7, z: 0}
+    - _nodeId: 74
+      _neighbourIds: 4b00000049000000
+      _currentValue: 12
+      _nodeType: 0
+      _position: {x: 4, y: 7, z: 0}
+    - _nodeId: 75
+      _neighbourIds: 4c000000410000004a00000055000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 5, y: 7, z: 0}
+    - _nodeId: 76
+      _neighbourIds: 4b0000004d000000
+      _currentValue: 9
+      _nodeType: 0
+      _position: {x: 6, y: 7, z: 0}
+    - _nodeId: 77
+      _neighbourIds: 4c0000004e00000057000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 7, y: 7, z: 0}
+    - _nodeId: 78
+      _neighbourIds: 440000004d00000058000000
+      _currentValue: 8
+      _nodeType: 0
+      _position: {x: 8, y: 7, z: 0}
+    - _nodeId: 79
+      _neighbourIds: 45000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 9, y: 7, z: 0}
+    - _nodeId: 80
+      _neighbourIds: 46000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 0, y: 8, z: 0}
+    - _nodeId: 81
+      _neighbourIds: 47000000520000005b000000
+      _currentValue: 14
+      _nodeType: 0
+      _position: {x: 1, y: 8, z: 0}
+    - _nodeId: 82
+      _neighbourIds: 53000000510000005c000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 2, y: 8, z: 0}
+    - _nodeId: 83
+      _neighbourIds: 490000005200000054000000
+      _currentValue: 16
+      _nodeType: 0
+      _position: {x: 3, y: 8, z: 0}
+    - _nodeId: 84
+      _neighbourIds: 5300000055000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 4, y: 8, z: 0}
+    - _nodeId: 85
+      _neighbourIds: 540000004b0000005f000000
+      _currentValue: 18
+      _nodeType: 0
+      _position: {x: 5, y: 8, z: 0}
+    - _nodeId: 86
+      _neighbourIds: 57000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 6, y: 8, z: 0}
+    - _nodeId: 87
+      _neighbourIds: 58000000560000004d000000
+      _currentValue: 5
+      _nodeType: 0
+      _position: {x: 7, y: 8, z: 0}
+    - _nodeId: 88
+      _neighbourIds: 570000004e0000005900000062000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 8, y: 8, z: 0}
+    - _nodeId: 89
+      _neighbourIds: 5800000063000000
+      _currentValue: 9
+      _nodeType: 0
+      _position: {x: 9, y: 8, z: 0}
+    - _nodeId: 90
+      _neighbourIds: 5b000000
+      _currentValue: 5
+      _nodeType: 0
+      _position: {x: 0, y: 9, z: 0}
+    - _nodeId: 91
+      _neighbourIds: 510000005a0000005c000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 1, y: 9, z: 0}
+    - _nodeId: 92
+      _neighbourIds: 520000005b0000005d000000
+      _currentValue: 19
+      _nodeType: 0
+      _position: {x: 2, y: 9, z: 0}
+    - _nodeId: 93
+      _neighbourIds: 5e0000005c000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 3, y: 9, z: 0}
+    - _nodeId: 94
+      _neighbourIds: 5f0000005d000000
+      _currentValue: 12
+      _nodeType: 0
+      _position: {x: 4, y: 9, z: 0}
+    - _nodeId: 95
+      _neighbourIds: 550000005e000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 5, y: 9, z: 0}
+    - _nodeId: 96
+      _neighbourIds: 61000000
+      _currentValue: 6
+      _nodeType: 0
+      _position: {x: 6, y: 9, z: 0}
+    - _nodeId: 97
+      _neighbourIds: 6000000062000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 7, y: 9, z: 0}
+    - _nodeId: 98
+      _neighbourIds: 610000006300000058000000
+      _currentValue: 15
+      _nodeType: 0
+      _position: {x: 8, y: 9, z: 0}
+    - _nodeId: 99
+      _neighbourIds: 5900000062000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 9, y: 9, z: 0}
