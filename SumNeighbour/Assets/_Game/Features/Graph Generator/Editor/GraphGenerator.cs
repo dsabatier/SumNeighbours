@@ -26,14 +26,12 @@ namespace SumNeighbours
 
         public NodeGraph GenerateGraph()
         {
-            if (AssetDatabase.FindAssets("Assets/Resources/Levels/" + Filename + ".asset").Length > 0)
-                Debug.LogError("File exists.");
-
             NodeGraph graph = new NodeGraph();
 
             int nodeIndex = 0;
             int heightWithVariance = Height + Random.Range(0, HeightVariance);
             int widthWithVariance = Width + Random.Range(0, WidthVariance);
+            
             // Generate nodes
             for (int y = 0; y < heightWithVariance; y++)
             {
@@ -58,24 +56,12 @@ namespace SumNeighbours
             // Give nodes some neighbours
             foreach (Node node in graph.Nodes)
             {
-                List<Vector3> neighbourDirections = new List<Vector3> { Vector3.up, Vector3.left, Vector3.down, Vector3.right };
-
-                int[] neighbourIds = new int[Random.Range(1, 4)];
-
-                for (int i = 0; i < neighbourIds.Length; i++)
-                {
-                    int randomIndex = Random.Range(1, neighbourDirections.Count);
-                    Vector3 randomDirection = neighbourDirections[randomIndex];
-
-                    Node neighbour = graph.GetNode(node.Position + randomDirection);
-                    neighbourDirections.Remove(randomDirection);
-                    neighbourIds[i] = neighbour.NodeId;
-                }
-
-                node.AssignNeighbours(new List<int>(neighbourIds));
+                List<int> neighbourIds;
+                neighbourIds = GenerateNeighbourIds(graph, node).ToList();
+                node.AssignNeighbours(neighbourIds);
             }
 
-            // make sure each node has a reference to any node that is refering to it
+            // make sure each node has a reference to any other node that is referencing it
             foreach (Node node in graph.Nodes)
             {
                 List<int> neighbourIds = new List<int>(node.NeighbourIds);
@@ -89,6 +75,13 @@ namespace SumNeighbours
                 }
             }
 
+            // Check if graph is connected
+            if (CheckIfGraphIsConnected(graph) == false)
+            {
+                Debug.LogError("Graph generated was not connected, discarding it!");
+                return null;
+            }
+            
             // fill in all the number nodes with 1-9
             foreach (Node node in graph.Nodes)
             {
@@ -110,10 +103,68 @@ namespace SumNeighbours
                     node.SetValue(0);
             }
 
+            // clear all neighbours
+            foreach (Node node in graph.Nodes)
+            {
+                //node.AssignNeighbours(new List<int>());
+            }
+
             return graph;
         }
 
+        private static bool CheckIfGraphIsConnected(NodeGraph graph)
+        {
+            Node startingNode = graph.Nodes[0];
+            List<Node> checkedNodes = GetAllNeighboursAndAddToList(graph, startingNode, new List<Node>());
+            return checkedNodes.Count == graph.Nodes.Count;
+        }
+        private static List<Node> GetAllNeighboursAndAddToList(NodeGraph graph, Node node, List<Node> nodesChecked)
+        {
+            nodesChecked.Add(node);
+            List<Node> neighbours = new List<Node>();
+            foreach (int neighbourId in node.NeighbourIds)
+            {
+                neighbours.Add(graph.Nodes[neighbourId]);
+            }
 
+            foreach (Node neighbour in neighbours)
+            {
+                if (!nodesChecked.Contains(neighbour))
+                    GetAllNeighboursAndAddToList(graph, neighbour, nodesChecked);
+            }
 
+            return nodesChecked;
+
+        }
+
+        private static int[] GenerateNeighbourIds(NodeGraph graph, Node node)
+        {
+            // All possible directions
+            List<Vector3> neighbourDirections = new List<Vector3>
+                {Vector3.up, Vector3.left, Vector3.down, Vector3.right};
+
+            // make sure we aren't going to grab a null node
+            for (int i = neighbourDirections.Count - 1; i >= 0; i--)
+            {
+                Vector3 direction = neighbourDirections[i];
+                if (graph.GetNode(node.Position + direction) == Node.NoNode)
+                {
+                    neighbourDirections.Remove(direction);
+                }
+            }
+
+            int[] neighbourIds = new int[Random.Range(1, neighbourDirections.Count - 1)];
+            for (int i = 0; i < neighbourIds.Length; i++)
+            {
+                int randomIndex = Random.Range(1, neighbourDirections.Count);
+                Vector3 randomDirection = neighbourDirections[randomIndex];
+
+                Node neighbour = graph.GetNode(node.Position + randomDirection);
+                neighbourDirections.Remove(randomDirection);
+                neighbourIds[i] = neighbour.NodeId;
+            }
+
+            return neighbourIds;
+        }
     }
 }

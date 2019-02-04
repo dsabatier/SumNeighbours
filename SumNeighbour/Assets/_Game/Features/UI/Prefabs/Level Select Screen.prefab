@@ -117,61 +117,19 @@ MonoBehaviour:
   _levelButtonPrefab: {fileID: 7499810673639997245, guid: f063f0c3119275640b9caee525cc5e19,
     type: 3}
   _levels:
-  - {fileID: 11400000, guid: 4a8ca17656b55ac408088d20e9f846ac, type: 2}
-  - {fileID: 11400000, guid: 704afb35d76bc1b4694cd2bd8f0c6182, type: 2}
-  - {fileID: 11400000, guid: 4030ec458e3af0c419890255c6ca19f8, type: 2}
-  - {fileID: 11400000, guid: 8b3ddbc027f602449883fd13b7f1c173, type: 2}
-  - {fileID: 11400000, guid: 850c416b0bc3b704bbe39df3e24e5b64, type: 2}
-  - {fileID: 11400000, guid: 7968b25ea1639bd4a86ca8791fd88ef5, type: 2}
-  - {fileID: 11400000, guid: 8eb1689f9cb6ecb4cbe85fcfc44eef42, type: 2}
-  - {fileID: 11400000, guid: 81e14148454f9314d82d9aa75600868d, type: 2}
-  - {fileID: 11400000, guid: 55f63aadd0798764994bc4e33dc5239d, type: 2}
-  - {fileID: 11400000, guid: cf099e368c279894c96ccb4a72441bba, type: 2}
-  - {fileID: 11400000, guid: 1d84dfbf1f45d654fae6716034154df2, type: 2}
-  - {fileID: 11400000, guid: bf9b074e41a94e3448955d67847db0dc, type: 2}
-  - {fileID: 11400000, guid: 7e6480da045455a4dbf80ab03fe516a8, type: 2}
-  - {fileID: 11400000, guid: dddb7d81bf30bbf45a349438db532b62, type: 2}
-  - {fileID: 11400000, guid: 58a2f8f834116f647973714a24a8a228, type: 2}
-  - {fileID: 11400000, guid: 6cd422519d5458047aff5e3a65e81ddc, type: 2}
-  - {fileID: 11400000, guid: c8e5f4d77b1e680428bc4c17906e4d8b, type: 2}
-  - {fileID: 11400000, guid: 83da75f936e988344b6ddb042c1918a7, type: 2}
-  - {fileID: 11400000, guid: 18ed3f9858adfff43bf00e8668401bde, type: 2}
-  - {fileID: 11400000, guid: 0d9b0c83ee235f944b0cda1413c7f0ad, type: 2}
-  - {fileID: 11400000, guid: 0dc27d58dba209a4c8fbc50cdb80c42a, type: 2}
-  - {fileID: 11400000, guid: e91063f30028b5642b5281781a848e24, type: 2}
-  - {fileID: 11400000, guid: bd75e98dee14928418b11f0669abc579, type: 2}
-  - {fileID: 11400000, guid: 5121a54e0ec164d4ea2acd3640162e84, type: 2}
-  - {fileID: 11400000, guid: 6c3112dd8cff5444fb70a343212ce2ff, type: 2}
-  - {fileID: 11400000, guid: c22b3048c509a35419ba020bf4f58ad8, type: 2}
-  - {fileID: 11400000, guid: 11503b2f21dead649964fe733719dc38, type: 2}
-  - {fileID: 11400000, guid: fa1e9bcdada79ef41b7a74615c968d2a, type: 2}
-  - {fileID: 11400000, guid: 21dd8aafa35d82b42ad9ba6d87c08eaf, type: 2}
-  - {fileID: 11400000, guid: e4453774d2a955b41b67393f5dd37e2a, type: 2}
-  - {fileID: 11400000, guid: ae8d26732b3cd2448b753034d5da219f, type: 2}
-  - {fileID: 11400000, guid: ee7c1f7beff7d0340895202a3d4667b6, type: 2}
-  - {fileID: 11400000, guid: 929c40e649f6bba4d8cb9ffb0b6eaf49, type: 2}
-  - {fileID: 11400000, guid: 36828bb4057478a419934f1c47c6c0b6, type: 2}
-  - {fileID: 11400000, guid: 42973a8fcd2f5cd4ea8a61bb2c4f00ef, type: 2}
-  - {fileID: 11400000, guid: a0c75a53509570a42b1a82222e4bba4f, type: 2}
-  - {fileID: 11400000, guid: 028c3ab99bffa7242804c0c79bd8a631, type: 2}
-  - {fileID: 11400000, guid: 73b1c6a6ffde7904caf5e6875ed511e7, type: 2}
-  - {fileID: 11400000, guid: 0d7674250c8c3054e8d7192cf88350cd, type: 2}
-  - {fileID: 11400000, guid: 2db2bad2383fc1949b0e6a9fc3446c6d, type: 2}
-  - {fileID: 11400000, guid: c7ae7d14dc85baa45996fca226c95f4e, type: 2}
-  - {fileID: 11400000, guid: 8e10bbd19702f0b4cb276faa03aec482, type: 2}
-  - {fileID: 11400000, guid: d24af92938b93aa46b176002cbcf0dd4, type: 2}
-  - {fileID: 11400000, guid: 23fea1e50c65ce54888b08a1e269aeef, type: 2}
-  - {fileID: 11400000, guid: 9b5fd49936b93b14888634b871fd6732, type: 2}
-  - {fileID: 11400000, guid: a34912a82512c524f87d9a6f3c3a4694, type: 2}
-  - {fileID: 11400000, guid: a4c25acbccb0e1343aacda1f4984ece1, type: 2}
-  - {fileID: 11400000, guid: cc5ebb5f12636b34392dee92501a0283, type: 2}
-  - {fileID: 11400000, guid: 0d164943cd6195f4f90c2a422863cb5c, type: 2}
-  - {fileID: 11400000, guid: 5a2e242c40b34d84d9ae2626b84300a5, type: 2}
-  - {fileID: 11400000, guid: ac806d28ccb16a04c89f5129453c16c8, type: 2}
-  - {fileID: 11400000, guid: d80386845374e6c498e572280b0e6a48, type: 2}
-  - {fileID: 11400000, guid: a94c10b924dfa4941a57559e7ec864df, type: 2}
-  - {fileID: 11400000, guid: 8599d222282140a4b8bac40823f07b0b, type: 2}
-  - {fileID: 11400000, guid: 1efd8325921c3294e867008f7df96fc2, type: 2}
+  - {fileID: 11400000, guid: 4aa794fee3a312746a5840daaa6b6547, type: 2}
+  - {fileID: 11400000, guid: 143d18c65ff98a340b0bf025246d6933, type: 2}
+  - {fileID: 11400000, guid: 42650c3c7dfe29949ac2b914599b767e, type: 2}
+  - {fileID: 11400000, guid: 039162815b0f4f44994ca9c10c1cb598, type: 2}
+  - {fileID: 11400000, guid: b6c873b0106fef840ac447eeb31d4bfd, type: 2}
+  - {fileID: 11400000, guid: 3b27241eac6857c42b58afc8a12a31f8, type: 2}
+  - {fileID: 11400000, guid: db20c9c616e57e44795de14226433046, type: 2}
+  - {fileID: 11400000, guid: c05f5fbdf0493ef46b15fdb33c4c3f8a, type: 2}
+  - {fileID: 11400000, guid: 87700d4028183164cb5c8145ae08d302, type: 2}
+  - {fileID: 11400000, guid: a86e01c31a35d89459780b3bbe857656, type: 2}
+  - {fileID: 11400000, guid: 4a47c74fff778394f80c3bf60c0d4e14, type: 2}
+  - {fileID: 11400000, guid: 2ee57cea478312f4a878d6be03a0e87a, type: 2}
+  _loadCompleteEvent: {fileID: 11400000, guid: 27a39741b5c816d4d810fe0713d0d98d, type: 2}
 --- !u!1 &973854535897634997
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,7 +148,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6752936615970443084
 RectTransform:
   m_ObjectHideFlags: 0
@@ -315,7 +273,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000034535235}
+  m_AnchoredPosition: {x: 0, y: -0.000008731524}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &8090876005483408064
@@ -389,7 +347,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.99999994}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -546,7 +504,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2407063779190527202}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

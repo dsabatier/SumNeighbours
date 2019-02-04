@@ -10,15 +10,15 @@ namespace SumNeighbours.EditorTools
 
     public class GraphGeneratorWizard : ScriptableWizard
     {
-
-        [SerializeField] private string _fileName;
+        private const string LEVEL_FOLDER_PATH = "Assets/LevelAssets";
+        [SerializeField] private string _fileName = "Folder Name";
         [SerializeField] private int _height = 3;
         [SerializeField] private int _width = 3;
         [SerializeField] private int _heightVariance = 0;
         [SerializeField] private int _widthVariance = 0;
-        [SerializeField] private int _numberOfLevelsToGenerate;
+        [SerializeField] private int _numberOfLevelsToGenerate = 1;
 
-        [MenuItem("Assets/Create/Generate Levels", priority = 0)]
+        [MenuItem("Level Tools/Generate Level batch", priority = 0)]
         static void CreateWizard()
         {
             ScriptableWizard.DisplayWizard<GraphGeneratorWizard>("Generate Levels", "Create");
@@ -38,7 +38,7 @@ namespace SumNeighbours.EditorTools
             levelNames.Init(new List<string>());
             levelNames.name = _fileName + " Level Names";
 
-            string directoryPath = Path.Combine("Assets/LevelAssets", _fileName);
+            string directoryPath = Path.Combine(LEVEL_FOLDER_PATH, _fileName);
 
             if (!Directory.Exists(directoryPath))
                 Directory.CreateDirectory(directoryPath);
@@ -47,6 +47,10 @@ namespace SumNeighbours.EditorTools
             {
                 LevelAsset levelAsset = ScriptableObject.CreateInstance<LevelAsset>();
                 levelAsset.NodeGraph = graphGenerator.GenerateGraph();
+
+                if (levelAsset.NodeGraph == null)
+                    continue;
+                
                 levelAsset.AverageNumberOfNeighbours = levelAsset.NodeGraph.GetAverageNumberOfNeighbours();
                 levelAsset.NumberOfStartingNodes = levelAsset.NodeGraph.GetNumberOfStartingNodes();
 

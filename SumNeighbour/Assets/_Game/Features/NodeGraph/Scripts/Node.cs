@@ -41,7 +41,7 @@ namespace SumNeighbours
         [SerializeField] int _nodeId;
         public int NodeId => _nodeId;
 
-        NodeGraph _nodeGraph;
+        [NonSerialized] private NodeGraph _nodeGraph;
 
         [SerializeField] int[] _neighbourIds = new int[0];
         public IReadOnlyCollection<int> NeighbourIds => Array.AsReadOnly(_neighbourIds);
@@ -101,10 +101,9 @@ namespace SumNeighbours
 
             _neighbourIds = neighbourIds.ToArray();
         }
-
+        
         public void AssignNeighbours(List<int> neighbourIds)
-        {
-            neighbourIds.RemoveAll(id => id < 0);
+        {           
             _neighbourIds = neighbourIds.ToArray();
         }
 

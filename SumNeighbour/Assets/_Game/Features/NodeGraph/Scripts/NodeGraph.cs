@@ -15,8 +15,8 @@ namespace SumNeighbours
 
         public Action OnLevelComplete = () => { };
 
-        [SerializeField] List<Node> _nodes = new List<Node>();
-        public IReadOnlyCollection<Node> Nodes => _nodes.AsReadOnly();
+        List<Node> _nodes = new List<Node>();
+        public IReadOnlyList<Node> Nodes => _nodes.AsReadOnly();
 
         List<Connection> _connections = new List<Connection>();
         public IReadOnlyCollection<Connection> Connections => _connections.AsReadOnly();

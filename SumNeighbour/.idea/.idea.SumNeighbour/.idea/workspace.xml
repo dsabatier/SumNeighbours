@@ -1,7 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fab7f651-ece1-45dc-9cc4-bfef7227002e" name="Default Changelist" comment="" />
+    <list default="true" id="fab7f651-ece1-45dc-9cc4-bfef7227002e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SumNeighbour/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SumNeighbour/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SumNeighbour/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SumNeighbour/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/Graph Generator/Editor/GraphGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Features/Graph Generator/Editor/GraphGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/Graph Generator/Editor/GraphGeneratorWizard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Features/Graph Generator/Editor/GraphGeneratorWizard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_ Level Names.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_ Level Names.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_10.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_10.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_11.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_11.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_12.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_12.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_13.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_13.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_14.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_14.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_15.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_15.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_16.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_16.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_17.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_17.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_18.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_18.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_19.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_19.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_20.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_20.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_21.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_21.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_22.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_22.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_23.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_23.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_24.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_24.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_25.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_25.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_26.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_26.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_27.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_27.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_28.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_28.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_29.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_29.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_4.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_4.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_5.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_5.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_6.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_6.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_7.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_7.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_8.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_8.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_9.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/10x10_/10x10_9.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x3 Level Names.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x3 Level Names.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x30.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x30.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x31.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x31.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x310.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x310.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x311.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x311.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x312.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x312.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x313.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x313.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x314.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x314.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x315.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x315.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x316.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x316.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x317.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x317.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x318.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x318.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x319.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x319.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x32.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x32.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x320.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x320.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x321.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x321.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x322.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x322.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x323.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x323.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x324.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x324.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x33.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x33.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x34.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x34.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x35.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x35.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x36.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x36.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x37.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x37.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x38.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x38.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x39.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/LevelAssets/Generated Levels/Test5x3/Test5x39.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/Node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/Node.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/NodeGraph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/NodeGraph.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Features/UI/Prefabs/Level Select Screen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Features/UI/Prefabs/Level Select Screen.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Level1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Level1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/Level Select.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scenes/Level Select.unity" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,106 +136,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/UI/LevelSelectMenuController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-              <folding>
-                <marker date="1549161000489" expanded="false" signature="6:173" ph="..." />
-                <marker date="1549161000489" expanded="true" signature="198:1402" ph="{...}" />
-                <marker date="1549161000489" expanded="true" signature="259:1400" ph="{...}" />
-                <marker date="1549161000489" expanded="true" signature="763:815" ph="{...}" />
-                <marker date="1549161000489" expanded="true" signature="862:1272" ph="{...}" />
-                <marker date="1549161000489" expanded="true" signature="922:1209" ph="{...}" />
-                <marker date="1549161000489" expanded="true" signature="1327:1394" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Manager/Scripts/GameManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="96" column="55" selection-start-line="96" selection-start-column="55" selection-end-line="96" selection-end-column="55" />
-              <folding>
-                <marker date="1549164154896" expanded="false" signature="6:202" ph="..." />
-                <marker date="1549164154896" expanded="true" signature="231:5876" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="238:366" ph="/// Lives as long as the game is running and manages game state and scene loading/unloading ... " />
-                <marker date="1549164154896" expanded="true" signature="420:5874" ph="{...}" />
-                <marker date="1549164154896" expanded="false" signature="1143:1771" ph="Unity Lifecycle" />
-                <marker date="1549164154896" expanded="true" signature="1195:1466" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="1511:1736" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="1582:1656" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="1781:2512" ph="Static wrapper methods" />
-                <marker date="1549164154896" expanded="true" signature="1821:2011" ph="/// Starts game and loads specified level by name ... " />
-                <marker date="1549164154896" expanded="true" signature="2071:2191" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="2201:2285" ph="/// Restarts game, returns to main menu ... " />
-                <marker date="1549164154896" expanded="true" signature="2326:2469" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="2561:2627" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="2698:2821" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="2831:2904" ph="///  ... " />
-                <marker date="1549164154896" expanded="true" signature="2942:3776" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="3319:3442" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="3821:3947" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="4014:4472" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="4172:4309" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="4533:4976" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="4669:4808" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="5049:5345" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="5117:5335" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="5236:5321" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="5420:5581" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="5630:5868" ph="{...}" />
-                <marker date="1549164154896" expanded="true" signature="5700:5858" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/RuleNodeBehaviour.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-              <folding>
-                <marker date="1549176973913" expanded="true" signature="6:106" ph="..." />
-                <marker date="1549176973913" expanded="true" signature="131:897" ph="{...}" />
-                <marker date="1549176973913" expanded="true" signature="184:895" ph="{...}" />
-                <marker date="1549176973913" expanded="true" signature="336:437" ph="{...}" />
-                <marker date="1549176973913" expanded="true" signature="493:611" ph="{...}" />
-                <marker date="1549176973913" expanded="true" signature="679:725" ph="{...}" />
-                <marker date="1549176973913" expanded="true" signature="771:804" ph="{...}" />
-                <marker date="1549176973913" expanded="true" signature="856:889" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/NumberNodeBehaviour.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-              <folding>
-                <marker date="1549181598968" expanded="true" signature="6:125" ph="..." />
-                <marker date="1549181598968" expanded="true" signature="175:953" ph="{...}" />
-                <marker date="1549181598968" expanded="true" signature="362:622" ph="{...}" />
-                <marker date="1549181598968" expanded="true" signature="670:869" ph="{...}" />
-                <marker date="1549181598968" expanded="true" signature="703:757" ph="{...}" />
-                <marker date="1549181598968" expanded="true" signature="912:951" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/NodeGraphBehaviour.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="38" column="128" selection-start-line="38" selection-start-column="128" selection-end-line="38" selection-end-column="128" />
+            <state relative-caret-position="176">
+              <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
               <folding>
                 <marker date="1549183872704" expanded="false" signature="6:150" ph="..." />
                 <marker date="1549183872704" expanded="true" signature="175:4256" ph="{...}" />
@@ -132,13 +165,103 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/Graph Generator/Editor/GraphGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="81" column="28" lean-forward="true" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
+              <folding>
+                <marker date="1549239759839" expanded="false" signature="6:116" ph="..." />
+                <marker date="1549239759839" expanded="true" signature="141:5885" ph="{...}" />
+                <marker date="1549239759839" expanded="true" signature="175:5883" ph="{...}" />
+                <marker date="1549239759839" expanded="true" signature="482:679" ph="{...}" />
+                <marker date="1549239759839" expanded="true" signature="721:3721" ph="{...}" />
+                <marker date="1549239759839" expanded="false" signature="1065:1729" ph="{...}" />
+                <marker date="1549239759839" expanded="true" signature="1139:1715" ph="{...}" />
+                <marker date="1549239759839" expanded="false" signature="1819:2015" ph="{...}" />
+                <marker date="1549239759839" expanded="false" signature="2155:2550" ph="{...}" />
+                <marker date="1549239759839" expanded="true" signature="2308:2536" ph="{...}" />
+                <marker date="1549239759839" expanded="true" signature="2651:2793" ph="{...}" />
+                <marker date="1549239759839" expanded="false" signature="2906:3043" ph="{...}" />
+                <marker date="1549239759839" expanded="false" signature="3147:3289" ph="{...}" />
+                <marker date="1549239759839" expanded="false" signature="3394:3514" ph="{...}" />
+                <marker date="1549239759839" expanded="false" signature="3598:3684" ph="{...}" />
+                <marker date="1549239759839" expanded="true" signature="3791:4026" ph="{...}" />
+                <marker date="1549239759839" expanded="true" signature="4142:4649" ph="{...}" />
+                <marker date="1549239759839" expanded="true" signature="4301:4387" ph="{...}" />
+                <marker date="1549239759839" expanded="true" signature="4439:4604" ph="{...}" />
+                <marker date="1549239759839" expanded="true" signature="4728:5877" ph="{...}" />
+                <marker date="1549239759839" expanded="true" signature="5047:5307" ph="{...}" />
+                <marker date="1549239759839" expanded="true" signature="5198:5293" ph="{...}" />
+                <marker date="1549239759839" expanded="true" signature="5456:5833" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/NodeGraph.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1744">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <marker date="1549239226739" expanded="false" signature="6:111" ph="..." />
+                <marker date="1549239226739" expanded="true" signature="136:3815" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="191:3813" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="206:732" ph="Variables" />
+                <marker date="1549239226739" expanded="true" signature="760:781" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="830:888" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="928:982" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="1029:1166" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="1207:1576" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="1355:1527" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="1610:1811" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="1671:1801" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="1851:1901" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="2022:2162" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="2219:2439" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="2485:2827" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="2537:2817" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="2614:2803" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="2864:3468" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="2950:3396" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="3037:3287" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="3076:3269" ph="/* do nothing, we are just checking to see if any are false. ... */" />
+                <marker date="1549239226739" expanded="true" signature="3308:3382" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="3521:3628" ph="{...}" />
+                <marker date="1549239226739" expanded="true" signature="3675:3806" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/Graph Generator/Editor/GraphGeneratorWizard.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+              <folding>
+                <marker date="1549239476165" expanded="false" signature="6:120" ph="..." />
+                <marker date="1549239476165" expanded="true" signature="157:2770" ph="{...}" />
+                <marker date="1549239476165" expanded="true" signature="218:2768" ph="{...}" />
+                <marker date="1549239476165" expanded="true" signature="749:864" ph="{...}" />
+                <marker date="1549239476165" expanded="true" signature="895:2603" ph="{...}" />
+                <marker date="1549239476165" expanded="true" signature="993:1179" ph="{...}" />
+                <marker date="1549239476165" expanded="true" signature="1766:2483" ph="{...}" />
+                <marker date="1549239476165" expanded="true" signature="2634:2705" ph="{...}" />
+                <marker date="1549239476165" expanded="true" signature="2741:2762" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/Camera/Scripts/PinchZoom.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="208">
               <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
-                <marker date="1549182608066" expanded="true" signature="6:51" ph="..." />
+                <marker date="1549182608066" expanded="false" signature="6:51" ph="..." />
                 <marker date="1549182608066" expanded="true" signature="53:154" ph="/* Literally copy pasted from a unity learn tutorial because mad skills ... */" />
                 <marker date="1549182608066" expanded="true" signature="179:2748" ph="{...}" />
                 <marker date="1549182608066" expanded="true" signature="263:2746" ph="{...}" />
@@ -158,7 +281,7 @@
             <state relative-caret-position="144">
               <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding>
-                <marker date="1549183785675" expanded="true" signature="6:51" ph="..." />
+                <marker date="1549183785675" expanded="false" signature="6:51" ph="..." />
                 <marker date="1549183785675" expanded="true" signature="132:1444" ph="{...}" />
                 <marker date="1549183785675" expanded="true" signature="356:484" ph="{...}" />
                 <marker date="1549183785675" expanded="true" signature="548:1145" ph="{...}" />
@@ -173,26 +296,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/Node.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
+            <state relative-caret-position="-256">
+              <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
               <folding>
-                <marker date="1549170013888" expanded="false" signature="6:85" ph="..." />
-                <marker date="1549170013888" expanded="true" signature="110:3055" ph="{...}" />
-                <marker date="1549170013888" expanded="true" signature="137:186" ph="{...}" />
-                <marker date="1549170013888" expanded="true" signature="228:3053" ph="{...}" />
-                <marker date="1549170013888" expanded="true" signature="272:582" ph="{...}" />
-                <marker date="1549170013888" expanded="true" signature="326:384" ph="{...}" />
-                <marker date="1549170013888" expanded="true" signature="434:463" ph="{...}" />
-                <marker date="1549170013888" expanded="true" signature="510:572" ph="{...}" />
-                <marker date="1549170013888" expanded="false" signature="764:1343" ph="Variables" />
-                <marker date="1549170013888" expanded="true" signature="1555:1785" ph="{...}" />
-                <marker date="1549170013888" expanded="true" signature="1830:1944" ph="{...}" />
-                <marker date="1549170013888" expanded="true" signature="1984:2315" ph="{...}" />
-                <marker date="1549170013888" expanded="true" signature="2356:2458" ph="{...}" />
-                <marker date="1549170013888" expanded="true" signature="2504:2760" ph="{...}" />
-                <marker date="1549170013888" expanded="true" signature="2662:2696" ph="{...}" />
-                <marker date="1549170013888" expanded="true" signature="2822:2944" ph="{...}" />
-                <marker date="1549170013888" expanded="true" signature="2987:3046" ph="{...}" />
+                <marker date="1549239338335" expanded="true" signature="6:85" ph="..." />
+                <marker date="1549239338335" expanded="true" signature="110:3048" ph="{...}" />
+                <marker date="1549239338335" expanded="true" signature="137:186" ph="{...}" />
+                <marker date="1549239338335" expanded="true" signature="228:3046" ph="{...}" />
+                <marker date="1549239338335" expanded="true" signature="272:582" ph="{...}" />
+                <marker date="1549239338335" expanded="true" signature="326:384" ph="{...}" />
+                <marker date="1549239338335" expanded="true" signature="434:463" ph="{...}" />
+                <marker date="1549239338335" expanded="true" signature="510:572" ph="{...}" />
+                <marker date="1549239338335" expanded="true" signature="764:1367" ph="Variables" />
+                <marker date="1549239338335" expanded="true" signature="1579:1809" ph="{...}" />
+                <marker date="1549239338335" expanded="true" signature="1854:1968" ph="{...}" />
+                <marker date="1549239338335" expanded="true" signature="2008:2339" ph="{...}" />
+                <marker date="1549239338335" expanded="true" signature="2380:2482" ph="{...}" />
+                <marker date="1549239338335" expanded="true" signature="2528:2784" ph="{...}" />
+                <marker date="1549239338335" expanded="true" signature="2686:2720" ph="{...}" />
+                <marker date="1549239338335" expanded="true" signature="2854:2937" ph="{...}" />
+                <marker date="1549239338335" expanded="true" signature="2980:3039" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/NodeBehaviour.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <folding>
+                <marker date="1549232856875" expanded="false" signature="6:115" ph="..." />
+                <marker date="1549232856875" expanded="true" signature="140:2006" ph="{...}" />
+                <marker date="1549232856875" expanded="true" signature="147:305" ph="/// NodeBehaviour is used to connect the player to node data and ... " />
+                <marker date="1549232856875" expanded="true" signature="381:2004" ph="{...}" />
+                <marker date="1549232856875" expanded="true" signature="888:960" ph="{...}" />
+                <marker date="1549232856875" expanded="true" signature="994:1057" ph="{...}" />
+                <marker date="1549232856875" expanded="true" signature="1119:1337" ph="{...}" />
+                <marker date="1549232856875" expanded="true" signature="1366:1420" ph="{...}" />
+                <marker date="1549232856875" expanded="true" signature="1430:1557" ph="/// Change the current value of a node ... " />
+                <marker date="1549232856875" expanded="true" signature="1652:1769" ph="{...}" />
+                <marker date="1549232856875" expanded="true" signature="1908:1997" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -201,7 +346,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/GameplayController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-304">
+            <state relative-caret-position="32">
               <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding>
                 <marker date="1549162015741" expanded="false" signature="6:166" ph="..." />
@@ -223,7 +368,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/TransitionScreenController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="176">
               <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
               <folding>
                 <marker date="1549161960527" expanded="false" signature="6:118" ph="..." />
@@ -242,42 +387,49 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Start</find>
+      <find>5</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Manager/Scripts/GameStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Manager/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RuleNodeBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Game/Features/UI/LevelSelectMenuController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Game/Features/Camera/Scripts/TouchDragCamera.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TransitionScreenController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Game/Features/Camera/Scripts/PinchZoom.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Variable Assets/SpriteVariable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Variable Assets/StringListVariable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Easy Save 2/Examples/Creating an Automatic Save Structure/UniqueGameLogic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/Node.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Variable Assets/BoolVariable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Variable Assets/IntVariable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Events/Scripts/GameEventString.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NumberNodeBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Variable Assets/VariableAsset.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Singleton Pattern/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/NodeGraphBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Prototype Template/Prototype Template/Assets/_Systems/UI/Scripts/UIManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlayAnimation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Events/Scripts/GameEventStringListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/NodeBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Audio/Editor/AudioEventEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Events/Scripts/GameEventGameStateListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Events/Scripts/GameEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Events/Scripts/GameEventListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Audio/Scripts/AudioMixManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Audio/Scripts/SimpleAudioEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Events/Scripts/GameEventIntListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/GameplayController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Events/Scripts/GameEventInt.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Audio/Scripts/AudioEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Game/Scripts/UnityEventTemplates.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Events/Scripts/GameEventStringListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TransitionScreenController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Events/Scripts/GameEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Events/Scripts/GameEventGameStateListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Easy Save 2/Examples/Creating an Automatic Save Structure/UniqueGameLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Game/Features/Camera/Scripts/PinchZoom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Game/Features/Camera/Scripts/TouchDragCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Game/Features/Graph Generator/Editor/GraphGeneratorWizard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Prototype Template/Prototype Template/Assets/_Systems/UI/Scripts/UIManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Game/Features/Graph Generator/Editor/GraphGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Singleton Pattern/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Audio/Scripts/AudioEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Variable Assets/VariableAsset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Variable Assets/IntVariable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Variable Assets/BoolVariable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Audio/Scripts/SimpleAudioEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Variable Assets/StringListVariable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Audio/Scripts/AudioMixManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Game/Features/UI/LevelSelectMenuController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Variable Assets/SpriteVariable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/NodeBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RuleNodeBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/GameplayController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Manager/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Audio/Editor/AudioEventEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Manager/Scripts/GameStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/NodeGraphBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NumberNodeBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Events/Scripts/GameEventInt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Events/Scripts/GameEventString.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/NodeGraph.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Events/Scripts/GameEventIntListener.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -307,13 +459,16 @@
         <option value="$PROJECT_DIR$/Assets/TransitionScreenController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/GameplayController.cs" />
         <option value="$PROJECT_DIR$/Assets/Noodlepop/Game Manager/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/Node.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/NodeBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/RuleNodeBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/NumberNodeBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/_Game/Features/Camera/Scripts/PinchZoom.cs" />
         <option value="$PROJECT_DIR$/Assets/_Game/Features/Camera/Scripts/TouchDragCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/NodeGraphBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/NodeBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/NodeGraph.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/Node.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Game/Features/Graph Generator/Editor/GraphGeneratorWizard.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Game/Features/Graph Generator/Editor/GraphGenerator.cs" />
       </list>
     </option>
   </component>
@@ -323,20 +478,21 @@
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,10 +520,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="16028">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="9316">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="16028" />
+      <option name="pid" value="9316" />
       <method v="2" />
     </configuration>
   </component>
@@ -382,11 +538,12 @@
       <option name="presentableId" value="Default" />
       <updated>1549124481941</updated>
       <workItem from="1549124484628" duration="46691000" />
+      <workItem from="1549231025002" duration="8725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46691000" />
+    <option name="totallyTimeSpent" value="55416000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -399,34 +556,35 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-5" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Inspection Results" sideWeight="0.49946696" weight="0.30653805" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.39871383" />
-      <window_info anchor="bottom" id="Database Changes" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3290461" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.39871383" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" visible="true" weight="0.39871383" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.49946696" weight="0.30653805" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50159913" side_tool="true" visible="true" weight="0.39871383" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,20 +603,8 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/_Game/Scripts/MoveHistory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Game/Scripts/LevelAsset.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Game/Scripts/MoveHistory.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_Game/Scripts/LevelAsset.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Noodlepop/Audio/Scripts/AudioMixManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -516,20 +662,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Utility/RangedFloat/Editor/RangedFloatDrawer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Utility/RangedFloat/RangedFloat.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Utility/RangedFloat/Editor/RangedFloatDrawer.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_Utility/RangedFloat/RangedFloat.cs" />
     <entry file="file://$PROJECT_DIR$/../../Prototype Template/Prototype Template/Assets/_Systems/UI/Scripts/UIManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -571,34 +705,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Game/Scripts/Variables/NodeVariable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Game/Scripts/Components/NodeBehaviour.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Game/Scripts/Editor/GraphGeneratorWizard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/LevelSelectMenuController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Game/Scripts/Variables/NodeVariable.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_Game/Scripts/Components/NodeBehaviour.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_Game/Scripts/Editor/GraphGeneratorWizard.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/LevelSelectMenuController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Noodlepop/Variable Assets/SpriteVariable.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -709,13 +819,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UIManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UIManager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/_Game/Scripts/UnityEventTemplates.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -790,13 +894,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/PlayerController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/PlayerController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Events/Scripts/GameEventListener.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -831,52 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/GameplayController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-304">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <marker date="1549162015741" expanded="false" signature="6:166" ph="..." />
-            <marker date="1549162015741" expanded="true" signature="191:1526" ph="{...}" />
-            <marker date="1549162015741" expanded="true" signature="245:1524" ph="{...}" />
-            <marker date="1549162015741" expanded="true" signature="527:587" ph="{...}" />
-            <marker date="1549162015741" expanded="true" signature="638:698" ph="{...}" />
-            <marker date="1549162015741" expanded="true" signature="739:806" ph="{...}" />
-            <marker date="1549162015741" expanded="true" signature="816:929" ph="/* Maybe create a move event, when a player makes a move add it to the queue ... */" />
-            <marker date="1549162015741" expanded="true" signature="996:1076" ph="{...}" />
-            <marker date="1549162015741" expanded="true" signature="1108:1317" ph="{...}" />
-            <marker date="1549162015741" expanded="true" signature="1357:1423" ph="{...}" />
-            <marker date="1549162015741" expanded="true" signature="1459:1518" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/Node.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
-          <folding>
-            <marker date="1549170013888" expanded="false" signature="6:85" ph="..." />
-            <marker date="1549170013888" expanded="true" signature="110:3055" ph="{...}" />
-            <marker date="1549170013888" expanded="true" signature="137:186" ph="{...}" />
-            <marker date="1549170013888" expanded="true" signature="228:3053" ph="{...}" />
-            <marker date="1549170013888" expanded="true" signature="272:582" ph="{...}" />
-            <marker date="1549170013888" expanded="true" signature="326:384" ph="{...}" />
-            <marker date="1549170013888" expanded="true" signature="434:463" ph="{...}" />
-            <marker date="1549170013888" expanded="true" signature="510:572" ph="{...}" />
-            <marker date="1549170013888" expanded="false" signature="764:1343" ph="Variables" />
-            <marker date="1549170013888" expanded="true" signature="1555:1785" ph="{...}" />
-            <marker date="1549170013888" expanded="true" signature="1830:1944" ph="{...}" />
-            <marker date="1549170013888" expanded="true" signature="1984:2315" ph="{...}" />
-            <marker date="1549170013888" expanded="true" signature="2356:2458" ph="{...}" />
-            <marker date="1549170013888" expanded="true" signature="2504:2760" ph="{...}" />
-            <marker date="1549170013888" expanded="true" signature="2662:2696" ph="{...}" />
-            <marker date="1549170013888" expanded="true" signature="2822:2944" ph="{...}" />
-            <marker date="1549170013888" expanded="true" signature="2987:3046" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Events/Scripts/GameEventInt.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -893,24 +945,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TransitionScreenController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/UI/LevelSelectMenuController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        <state relative-caret-position="496">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
           <folding>
-            <marker date="1549161960527" expanded="false" signature="6:118" ph="..." />
-            <marker date="1549161960527" expanded="true" signature="175:1016" ph="{...}" />
-            <marker date="1549161960527" expanded="true" signature="219:255" ph="{...}" />
-            <marker date="1549161960527" expanded="true" signature="531:591" ph="{...}" />
-            <marker date="1549161960527" expanded="true" signature="628:1014" ph="{...}" />
-            <marker date="1549161960527" expanded="true" signature="678:1008" ph="{...}" />
+            <marker date="1549161000489" expanded="true" signature="259:1400" ph="{...}" />
+            <marker date="1549161000489" expanded="true" signature="763:815" ph="{...}" />
+            <marker date="1549161000489" expanded="true" signature="862:1272" ph="{...}" />
+            <marker date="1549161000489" expanded="true" signature="922:1209" ph="{...}" />
+            <marker date="1549161000489" expanded="true" signature="1327:1394" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Noodlepop/Game Manager/Scripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
+        <state relative-caret-position="640">
           <caret line="96" column="55" selection-start-line="96" selection-start-column="55" selection-end-line="96" selection-end-column="55" />
           <folding>
             <marker date="1549164154896" expanded="false" signature="6:202" ph="..." />
@@ -921,14 +972,14 @@
             <marker date="1549164154896" expanded="true" signature="1195:1466" ph="{...}" />
             <marker date="1549164154896" expanded="true" signature="1511:1736" ph="{...}" />
             <marker date="1549164154896" expanded="true" signature="1582:1656" ph="{...}" />
-            <marker date="1549164154896" expanded="true" signature="1781:2512" ph="Static wrapper methods" />
+            <marker date="1549164154896" expanded="false" signature="1781:2512" ph="Static wrapper methods" />
             <marker date="1549164154896" expanded="true" signature="1821:2011" ph="/// Starts game and loads specified level by name ... " />
             <marker date="1549164154896" expanded="true" signature="2071:2191" ph="{...}" />
             <marker date="1549164154896" expanded="true" signature="2201:2285" ph="/// Restarts game, returns to main menu ... " />
             <marker date="1549164154896" expanded="true" signature="2326:2469" ph="{...}" />
             <marker date="1549164154896" expanded="true" signature="2561:2627" ph="{...}" />
             <marker date="1549164154896" expanded="true" signature="2698:2821" ph="{...}" />
-            <marker date="1549164154896" expanded="true" signature="2831:2904" ph="///  ... " />
+            <marker date="1549164154896" expanded="true" signature="2831:2904" ph="/// Don't ever do this again ... " />
             <marker date="1549164154896" expanded="true" signature="2942:3776" ph="{...}" />
             <marker date="1549164154896" expanded="true" signature="3319:3442" ph="{...}" />
             <marker date="1549164154896" expanded="true" signature="3821:3947" ph="{...}" />
@@ -946,48 +997,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/UI/LevelSelectMenuController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-          <folding>
-            <marker date="1549161000489" expanded="false" signature="6:173" ph="..." />
-            <marker date="1549161000489" expanded="true" signature="198:1402" ph="{...}" />
-            <marker date="1549161000489" expanded="true" signature="259:1400" ph="{...}" />
-            <marker date="1549161000489" expanded="true" signature="763:815" ph="{...}" />
-            <marker date="1549161000489" expanded="true" signature="862:1272" ph="{...}" />
-            <marker date="1549161000489" expanded="true" signature="922:1209" ph="{...}" />
-            <marker date="1549161000489" expanded="true" signature="1327:1394" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/NodeBehaviour.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
-          <folding>
-            <marker date="1549176960916" expanded="true" signature="6:115" ph="..." />
-            <marker date="1549176960916" expanded="true" signature="140:2006" ph="{...}" />
-            <marker date="1549176960916" expanded="true" signature="147:305" ph="/// NodeBehaviour is used to connect the player to node data and ... " />
-            <marker date="1549176960916" expanded="true" signature="381:2004" ph="{...}" />
-            <marker date="1549176960916" expanded="true" signature="888:960" ph="{...}" />
-            <marker date="1549176960916" expanded="true" signature="994:1057" ph="{...}" />
-            <marker date="1549176960916" expanded="true" signature="1119:1337" ph="{...}" />
-            <marker date="1549176960916" expanded="true" signature="1366:1420" ph="{...}" />
-            <marker date="1549176960916" expanded="true" signature="1430:1557" ph="/// Change the current value of a node ... " />
-            <marker date="1549176960916" expanded="true" signature="1652:1769" ph="{...}" />
-            <marker date="1549176960916" expanded="true" signature="1908:1997" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/RuleNodeBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="224">
           <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
-            <marker date="1549176973913" expanded="true" signature="6:106" ph="..." />
+            <marker date="1549176973913" expanded="false" signature="6:106" ph="..." />
             <marker date="1549176973913" expanded="true" signature="131:897" ph="{...}" />
             <marker date="1549176973913" expanded="true" signature="184:895" ph="{...}" />
             <marker date="1549176973913" expanded="true" signature="336:437" ph="{...}" />
@@ -1001,10 +1016,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/NumberNodeBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
+        <state relative-caret-position="48">
           <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
           <folding>
-            <marker date="1549181598968" expanded="true" signature="6:125" ph="..." />
+            <marker date="1549181598968" expanded="false" signature="6:125" ph="..." />
             <marker date="1549181598968" expanded="true" signature="175:953" ph="{...}" />
             <marker date="1549181598968" expanded="true" signature="362:622" ph="{...}" />
             <marker date="1549181598968" expanded="true" signature="670:869" ph="{...}" />
@@ -1016,10 +1031,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/Camera/Scripts/PinchZoom.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="208">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding>
-            <marker date="1549182608066" expanded="true" signature="6:51" ph="..." />
+            <marker date="1549182608066" expanded="false" signature="6:51" ph="..." />
             <marker date="1549182608066" expanded="true" signature="53:154" ph="/* Literally copy pasted from a unity learn tutorial because mad skills ... */" />
             <marker date="1549182608066" expanded="true" signature="179:2748" ph="{...}" />
             <marker date="1549182608066" expanded="true" signature="263:2746" ph="{...}" />
@@ -1037,7 +1052,7 @@
         <state relative-caret-position="144">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
-            <marker date="1549183785675" expanded="true" signature="6:51" ph="..." />
+            <marker date="1549183785675" expanded="false" signature="6:51" ph="..." />
             <marker date="1549183785675" expanded="true" signature="132:1444" ph="{...}" />
             <marker date="1549183785675" expanded="true" signature="356:484" ph="{...}" />
             <marker date="1549183785675" expanded="true" signature="548:1145" ph="{...}" />
@@ -1048,10 +1063,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/NodeGraphBehaviour.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/GameplayController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <marker date="1549162015741" expanded="false" signature="6:166" ph="..." />
+            <marker date="1549162015741" expanded="true" signature="191:1526" ph="{...}" />
+            <marker date="1549162015741" expanded="true" signature="245:1524" ph="{...}" />
+            <marker date="1549162015741" expanded="true" signature="527:587" ph="{...}" />
+            <marker date="1549162015741" expanded="true" signature="638:698" ph="{...}" />
+            <marker date="1549162015741" expanded="true" signature="739:806" ph="{...}" />
+            <marker date="1549162015741" expanded="true" signature="816:929" ph="/* Maybe create a move event, when a player makes a move add it to the queue ... */" />
+            <marker date="1549162015741" expanded="true" signature="996:1076" ph="{...}" />
+            <marker date="1549162015741" expanded="true" signature="1108:1317" ph="{...}" />
+            <marker date="1549162015741" expanded="true" signature="1357:1423" ph="{...}" />
+            <marker date="1549162015741" expanded="true" signature="1459:1518" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TransitionScreenController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+          <folding>
+            <marker date="1549161960527" expanded="false" signature="6:118" ph="..." />
+            <marker date="1549161960527" expanded="true" signature="175:1016" ph="{...}" />
+            <marker date="1549161960527" expanded="true" signature="219:255" ph="{...}" />
+            <marker date="1549161960527" expanded="true" signature="531:591" ph="{...}" />
+            <marker date="1549161960527" expanded="true" signature="628:1014" ph="{...}" />
+            <marker date="1549161960527" expanded="true" signature="678:1008" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/NodeBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="38" column="128" selection-start-line="38" selection-start-column="128" selection-end-line="38" selection-end-column="128" />
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <marker date="1549232856875" expanded="false" signature="6:115" ph="..." />
+            <marker date="1549232856875" expanded="true" signature="140:2006" ph="{...}" />
+            <marker date="1549232856875" expanded="true" signature="147:305" ph="/// NodeBehaviour is used to connect the player to node data and ... " />
+            <marker date="1549232856875" expanded="true" signature="381:2004" ph="{...}" />
+            <marker date="1549232856875" expanded="true" signature="888:960" ph="{...}" />
+            <marker date="1549232856875" expanded="true" signature="994:1057" ph="{...}" />
+            <marker date="1549232856875" expanded="true" signature="1119:1337" ph="{...}" />
+            <marker date="1549232856875" expanded="true" signature="1366:1420" ph="{...}" />
+            <marker date="1549232856875" expanded="true" signature="1430:1557" ph="/// Change the current value of a node ... " />
+            <marker date="1549232856875" expanded="true" signature="1652:1769" ph="{...}" />
+            <marker date="1549232856875" expanded="true" signature="1908:1997" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/MonoBehaviours/NodeGraphBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
           <folding>
             <marker date="1549183872704" expanded="false" signature="6:150" ph="..." />
             <marker date="1549183872704" expanded="true" signature="175:4256" ph="{...}" />
@@ -1070,6 +1140,116 @@
             <marker date="1549183872704" expanded="true" signature="3796:4247" ph="{...}" />
             <marker date="1549183872704" expanded="true" signature="3871:4000" ph="{...}" />
             <marker date="1549183872704" expanded="true" signature="4057:4132" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/Node.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding>
+            <marker date="1549239338335" expanded="true" signature="6:85" ph="..." />
+            <marker date="1549239338335" expanded="true" signature="110:3048" ph="{...}" />
+            <marker date="1549239338335" expanded="true" signature="137:186" ph="{...}" />
+            <marker date="1549239338335" expanded="true" signature="228:3046" ph="{...}" />
+            <marker date="1549239338335" expanded="true" signature="272:582" ph="{...}" />
+            <marker date="1549239338335" expanded="true" signature="326:384" ph="{...}" />
+            <marker date="1549239338335" expanded="true" signature="434:463" ph="{...}" />
+            <marker date="1549239338335" expanded="true" signature="510:572" ph="{...}" />
+            <marker date="1549239338335" expanded="true" signature="764:1367" ph="Variables" />
+            <marker date="1549239338335" expanded="true" signature="1579:1809" ph="{...}" />
+            <marker date="1549239338335" expanded="true" signature="1854:1968" ph="{...}" />
+            <marker date="1549239338335" expanded="true" signature="2008:2339" ph="{...}" />
+            <marker date="1549239338335" expanded="true" signature="2380:2482" ph="{...}" />
+            <marker date="1549239338335" expanded="true" signature="2528:2784" ph="{...}" />
+            <marker date="1549239338335" expanded="true" signature="2686:2720" ph="{...}" />
+            <marker date="1549239338335" expanded="true" signature="2854:2937" ph="{...}" />
+            <marker date="1549239338335" expanded="true" signature="2980:3039" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/NodeGraph/Scripts/NodeGraph.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1744">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <marker date="1549239226739" expanded="false" signature="6:111" ph="..." />
+            <marker date="1549239226739" expanded="true" signature="136:3815" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="191:3813" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="206:732" ph="Variables" />
+            <marker date="1549239226739" expanded="true" signature="760:781" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="830:888" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="928:982" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="1029:1166" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="1207:1576" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="1355:1527" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="1610:1811" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="1671:1801" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="1851:1901" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="2022:2162" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="2219:2439" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="2485:2827" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="2537:2817" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="2614:2803" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="2864:3468" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="2950:3396" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="3037:3287" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="3076:3269" ph="/* do nothing, we are just checking to see if any are false. ... */" />
+            <marker date="1549239226739" expanded="true" signature="3308:3382" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="3521:3628" ph="{...}" />
+            <marker date="1549239226739" expanded="true" signature="3675:3806" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/Graph Generator/Editor/GraphGeneratorWizard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+          <folding>
+            <marker date="1549239476165" expanded="false" signature="6:120" ph="..." />
+            <marker date="1549239476165" expanded="true" signature="157:2770" ph="{...}" />
+            <marker date="1549239476165" expanded="true" signature="218:2768" ph="{...}" />
+            <marker date="1549239476165" expanded="true" signature="749:864" ph="{...}" />
+            <marker date="1549239476165" expanded="true" signature="895:2603" ph="{...}" />
+            <marker date="1549239476165" expanded="true" signature="993:1179" ph="{...}" />
+            <marker date="1549239476165" expanded="true" signature="1766:2483" ph="{...}" />
+            <marker date="1549239476165" expanded="true" signature="2634:2705" ph="{...}" />
+            <marker date="1549239476165" expanded="true" signature="2741:2762" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Game/Features/Graph Generator/Editor/GraphGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="81" column="28" lean-forward="true" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
+          <folding>
+            <marker date="1549239759839" expanded="false" signature="6:116" ph="..." />
+            <marker date="1549239759839" expanded="true" signature="141:5885" ph="{...}" />
+            <marker date="1549239759839" expanded="true" signature="175:5883" ph="{...}" />
+            <marker date="1549239759839" expanded="true" signature="482:679" ph="{...}" />
+            <marker date="1549239759839" expanded="true" signature="721:3721" ph="{...}" />
+            <marker date="1549239759839" expanded="false" signature="1065:1729" ph="{...}" />
+            <marker date="1549239759839" expanded="true" signature="1139:1715" ph="{...}" />
+            <marker date="1549239759839" expanded="false" signature="1819:2015" ph="{...}" />
+            <marker date="1549239759839" expanded="false" signature="2155:2550" ph="{...}" />
+            <marker date="1549239759839" expanded="true" signature="2308:2536" ph="{...}" />
+            <marker date="1549239759839" expanded="true" signature="2651:2793" ph="{...}" />
+            <marker date="1549239759839" expanded="false" signature="2906:3043" ph="{...}" />
+            <marker date="1549239759839" expanded="false" signature="3147:3289" ph="{...}" />
+            <marker date="1549239759839" expanded="false" signature="3394:3514" ph="{...}" />
+            <marker date="1549239759839" expanded="false" signature="3598:3684" ph="{...}" />
+            <marker date="1549239759839" expanded="true" signature="3791:4026" ph="{...}" />
+            <marker date="1549239759839" expanded="true" signature="4142:4649" ph="{...}" />
+            <marker date="1549239759839" expanded="true" signature="4301:4387" ph="{...}" />
+            <marker date="1549239759839" expanded="true" signature="4439:4604" ph="{...}" />
+            <marker date="1549239759839" expanded="true" signature="4728:5877" ph="{...}" />
+            <marker date="1549239759839" expanded="true" signature="5047:5307" ph="{...}" />
+            <marker date="1549239759839" expanded="true" signature="5198:5293" ph="{...}" />
+            <marker date="1549239759839" expanded="true" signature="5456:5833" ph="{...}" />
           </folding>
         </state>
       </provider>
