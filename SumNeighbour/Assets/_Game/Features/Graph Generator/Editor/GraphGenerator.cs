@@ -106,7 +106,7 @@ namespace SumNeighbours
             // clear all neighbours
             foreach (Node node in graph.Nodes)
             {
-                //node.AssignNeighbours(new List<int>());
+                node.AssignNeighbours(new List<int>());
             }
 
             return graph;

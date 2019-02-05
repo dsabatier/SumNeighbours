@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e61401864530ba347aba0fcb7ea2b74c, type: 3}
-  m_Name: Folder Name2
+  m_Name: Folder Name1
   m_EditorClassIdentifier: 
   AverageNumberOfNeighbours: 0
   NumberOfStartingNodes: 0
@@ -23,7 +23,7 @@ MonoBehaviour:
       _position: {x: 0, y: 0, z: 0}
     - _nodeId: 1
       _neighbourIds: 
-      _currentValue: 11
+      _currentValue: 8
       _nodeType: 0
       _position: {x: 1, y: 0, z: 0}
     - _nodeId: 2
@@ -33,7 +33,7 @@ MonoBehaviour:
       _position: {x: 2, y: 0, z: 0}
     - _nodeId: 3
       _neighbourIds: 
-      _currentValue: 3
+      _currentValue: 2
       _nodeType: 0
       _position: {x: 0, y: 1, z: 0}
     - _nodeId: 4
@@ -43,7 +43,7 @@ MonoBehaviour:
       _position: {x: 1, y: 1, z: 0}
     - _nodeId: 5
       _neighbourIds: 
-      _currentValue: 6
+      _currentValue: 4
       _nodeType: 0
       _position: {x: 2, y: 1, z: 0}
     - _nodeId: 6
@@ -53,7 +53,7 @@ MonoBehaviour:
       _position: {x: 0, y: 2, z: 0}
     - _nodeId: 7
       _neighbourIds: 
-      _currentValue: 5
+      _currentValue: 12
       _nodeType: 0
       _position: {x: 1, y: 2, z: 0}
     - _nodeId: 8

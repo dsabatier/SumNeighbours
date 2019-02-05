@@ -14,29 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _readOnly: 0
   _defaultValue:
-  - Folder Name0
+  - Folder Name1
   - Folder Name2
-  - Folder Name3
-  - Folder Name5
+  - Folder Name4
   - Folder Name6
-  - Folder Name7
-  - Folder Name12
-  - Folder Name13
-  - Folder Name20
-  - Folder Name21
-  - Folder Name23
-  - Folder Name24
+  - Folder Name8
+  - Folder Name9
   _value:
-  - Folder Name0
+  - Folder Name1
   - Folder Name2
-  - Folder Name3
-  - Folder Name5
+  - Folder Name4
   - Folder Name6
-  - Folder Name7
-  - Folder Name12
-  - Folder Name13
-  - Folder Name20
-  - Folder Name21
-  - Folder Name23
-  - Folder Name24
+  - Folder Name8
+  - Folder Name9
   Notes: 
