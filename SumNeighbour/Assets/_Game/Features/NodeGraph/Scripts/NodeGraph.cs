@@ -9,11 +9,17 @@ namespace SumNeighbours
     [System.Serializable]
     public class NodeGraph
     {
+        public static List<Vector3> NeighbourDirections = new List<Vector3>
+        {
+            Vector3.up, 
+            Vector3.left, 
+            Vector3.down, 
+            Vector3.right
+        };
+        
         #region Variables
         private const int STARTING_VALUE = 0;
         private const int MAX_RULE_NODE_COUNT = 100;
-
-        public Action OnLevelComplete = () => { };
 
         [SerializeField] List<Node> _nodes = new List<Node>();
         public IReadOnlyList<Node> Nodes => _nodes.AsReadOnly();
@@ -97,7 +103,7 @@ namespace SumNeighbours
             }
         }
 
-        public void EvaluateGraph()
+        public bool EvaluateGraph()
         {
             bool complete = true;
             foreach (Node node in _nodes)
@@ -114,8 +120,7 @@ namespace SumNeighbours
                 }
             }
 
-            if (complete)
-                OnLevelComplete();
+            return complete;
         }
 
         public float GetAverageNumberOfNeighbours()

@@ -254,18 +254,7 @@ MonoBehaviour:
   _selectedNode: {fileID: 11400000, guid: e6adbe008c2d8a84786fdbbf24913eae, type: 2}
   _onTap:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 28fe85faff4b1404692cb8cb3ef89333, type: 2}
-        m_MethodName: Raise
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEventNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   _text: {fileID: 1766139822477002932}

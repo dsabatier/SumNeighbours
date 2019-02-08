@@ -99,8 +99,8 @@ namespace SumNeighbours
             // delete the values of all the number nodes
             foreach (Node node in graph.Nodes)
             {
-                if (node.NodeType == NodeType.Number)
-                    node.SetValue(0);
+//                if (node.NodeType == NodeType.Number)
+//                    node.SetValue(0);
             }
 
             // clear all neighbours
@@ -140,8 +140,7 @@ namespace SumNeighbours
         private static int[] GenerateNeighbourIds(NodeGraph graph, Node node)
         {
             // All possible directions
-            List<Vector3> neighbourDirections = new List<Vector3>
-                {Vector3.up, Vector3.left, Vector3.down, Vector3.right};
+            List<Vector3> neighbourDirections = new List<Vector3>(NodeGraph.NeighbourDirections);
 
             // make sure we aren't going to grab a null node
             for (int i = neighbourDirections.Count - 1; i >= 0; i--)

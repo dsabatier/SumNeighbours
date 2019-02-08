@@ -102,10 +102,36 @@ namespace SumNeighbours
             _neighbourIds = neighbourIds.ToArray();
         }
         
+        public void RemoveNeighbourById(int id)
+        {
+            if (!_neighbourIds.Contains(id))
+                return;
+
+            List<int> neighbourIds = new List<int>(_neighbourIds);
+            neighbourIds.Remove(id);
+
+            _neighbourIds = neighbourIds.ToArray();
+        }
+        
         public void AssignNeighbours(List<int> neighbourIds)
         {           
             _neighbourIds = neighbourIds.ToArray();
         }
+
+        public List<Node> GetAdjacentNodes()
+        {
+            List<Vector3> directions = new List<Vector3>(NodeGraph.NeighbourDirections);
+            List<Node> adjacentNodes = new List<Node>();
+
+            foreach (Vector3 direction in directions)
+            {
+                adjacentNodes.Add(_nodeGraph.GetNode(Position + direction));
+            }
+
+            adjacentNodes.RemoveAll(n => n == Node.NoNode);
+            return adjacentNodes;
+        }
+        
 
         public override string ToString()
         {

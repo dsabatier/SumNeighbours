@@ -4,6 +4,8 @@ using System.Linq;
 using UnityEngine;
 using Noodlepop.GameEvents;
 using Noodlepop.Systems;
+using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 namespace SumNeighbours
 {
@@ -15,14 +17,22 @@ namespace SumNeighbours
         [SerializeField] private GameObject _ruleNodePrefab;
         [SerializeField] private GameObject _connectionPrefab;
         [SerializeField] private float _graphScale = 1;
-        [SerializeField] private GameEvent _onPuzzleComplete;
+        [SerializeField] private LevelAsset _levelOverride;
+        [SerializeField] private UnityEvent _onPuzzleComplete;
 
         private List<NodeBehaviour> _nodeBehaviours = new List<NodeBehaviour>();
         private List<LineRenderer> _lines = new List<LineRenderer>();
 
         private void Start()
         {
-            LoadLevel(GameManager.CurrentLevel);
+            
+            if(_levelOverride != null)
+                LoadLevel(_levelOverride);
+            else
+                LoadLevel(GameManager.CurrentLevel);
+
+//            if (!SceneManager.GetSceneByName("Game UI").isLoaded)
+//                SceneManager.LoadScene("Game UI", LoadSceneMode.Additive);
 
             CenterCamera();
         }
@@ -50,13 +60,16 @@ namespace SumNeighbours
             DrawNodes();
             DrawConnections();
 
-            _nodeGraph.EvaluateGraph();
-            _nodeGraph.OnLevelComplete += _onPuzzleComplete.Raise;
+            if(_nodeGraph.EvaluateGraph())
+                _onPuzzleComplete.Invoke();
+            
+            EvaluateGraph();
         }
 
         public void EvaluateGraph()
         {
-            _nodeGraph.EvaluateGraph();
+            if(_nodeGraph.EvaluateGraph())
+                _onPuzzleComplete.Invoke();
         }
 
         public void ResetGraph()
@@ -95,15 +108,22 @@ namespace SumNeighbours
         {
             Transform graphParent = transform;
 
-            foreach (Connection connection in _nodeGraph.Connections)
+            foreach (Node node in _nodeGraph.Nodes)
             {
-                LineRenderer line = Instantiate(_connectionPrefab).GetComponent<LineRenderer>();
-                line.transform.SetParent(graphParent, false);
-                line.useWorldSpace = false;
-                line.SetPosition(0, _nodeGraph.GetNode(connection.NodeA).Position * _graphScale);
-                line.SetPosition(1, _nodeGraph.GetNode(connection.NodeB).Position * _graphScale);
+                List<Node> adjacentNodes = node.GetAdjacentNodes();
+                foreach (Node adjacentNode in adjacentNodes)
+                {
+                    LineRenderer line = Instantiate(_connectionPrefab).GetComponent<LineRenderer>();
+                    line.transform.SetParent(graphParent, false);
+                    line.useWorldSpace = false;
+                    line.SetPosition(0, node.Position * _graphScale);
+                    line.SetPosition(1, adjacentNode.Position * _graphScale);
+    
+                    _lines.Add(line);
 
-                _lines.Add(line);
+                    line.gameObject.GetComponent<ConnectionBehaviour>()
+                        ?.SetNodes(node, adjacentNode);
+                }
             }
         }
 

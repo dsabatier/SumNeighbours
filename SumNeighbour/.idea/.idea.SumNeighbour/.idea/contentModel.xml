@@ -75,6 +75,8 @@
             <e p="UnityEventTemplates.cs" t="Include" />
           </e>
         </e>
+        <e p="ConnectionBehaviour.cs" t="Include" />
+        <e p="LineRendererCollider.cs" t="Include" />
         <e p="link.xml" t="Include" />
         <e p="Noodlepop" t="Include">
           <e p="Audio" t="Include">
