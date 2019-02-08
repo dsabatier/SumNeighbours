@@ -14,6 +14,7 @@ public class ConnectionBehaviour : MonoBehaviour
     private Node _nodeA;
     private Node _nodeB;
     private bool _isActive = false;
+    private bool _blockInput = false;
 
     public void SetNodes(Node nodeA, Node nodeB)
     {
@@ -23,6 +24,9 @@ public class ConnectionBehaviour : MonoBehaviour
 
     public void Toggle()
     {
+        if (_blockInput)
+            return;
+        
         if (_isActive)
         {
             Deactivate();
@@ -49,5 +53,11 @@ public class ConnectionBehaviour : MonoBehaviour
         _nodeB.RemoveNeighbourById(_nodeA.NodeId);
         _isActive = false;
     }
+
+    public void BlockInput(bool blocking)
+    {
+        _blockInput = blocking;
+    }
+    
     
 }

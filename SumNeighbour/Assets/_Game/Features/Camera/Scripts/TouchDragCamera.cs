@@ -26,7 +26,7 @@ public class TouchDragCamera : MonoBehaviour
         
         if (Input.GetMouseButton(0) && Input.touchCount < 2){
             Vector3 delta = _touchStart - GetWorldPosition(_groundZ);
-            _camera.transform.position += delta;
+            _camera.transform.position += new Vector3(0, delta.y, delta.z);
             
             _camera.transform.position = new Vector3(
                 Mathf.Clamp(_camera.transform.position.x, _minX, _maxX),

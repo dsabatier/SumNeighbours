@@ -18,8 +18,6 @@ namespace SumNeighbours
         };
         
         #region Variables
-        private const int STARTING_VALUE = 0;
-        private const int MAX_RULE_NODE_COUNT = 100;
 
         [SerializeField] List<Node> _nodes = new List<Node>();
         public IReadOnlyList<Node> Nodes => _nodes.AsReadOnly();

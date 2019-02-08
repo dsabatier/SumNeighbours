@@ -20,6 +20,7 @@ namespace SumNeighbours
         private void UpdateColor(bool correct)
         {
             GetComponent<MeshRenderer>().material = correct ? _correctMaterial : _normalMaterial;
+            _text.text = (_node.CurrentValue - _node.GetSumOfNeighbours()).ToString();
         }
         
         public override void ChangeNodeValue(int newValue)

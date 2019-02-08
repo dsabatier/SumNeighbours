@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e61401864530ba347aba0fcb7ea2b74c, type: 3}
+  m_Name: Levelbatch13
+  m_EditorClassIdentifier: 
+  AverageNumberOfNeighbours: 0
+  NumberOfStartingNodes: 0
+  NodeGraph:
+    _nodes:
+    - _nodeId: 0
+      _neighbourIds: 
+      _currentValue: 5
+      _nodeType: 1
+      _position: {x: 0, y: 0, z: 0}
+    - _nodeId: 1
+      _neighbourIds: 
+      _currentValue: 7
+      _nodeType: 0
+      _position: {x: 1, y: 0, z: 0}
+    - _nodeId: 2
+      _neighbourIds: 
+      _currentValue: 5
+      _nodeType: 1
+      _position: {x: 2, y: 0, z: 0}
+    - _nodeId: 3
+      _neighbourIds: 
+      _currentValue: 5
+      _nodeType: 0
+      _position: {x: 3, y: 0, z: 0}
+    - _nodeId: 4
+      _neighbourIds: 
+      _currentValue: 2
+      _nodeType: 0
+      _position: {x: 0, y: 1, z: 0}
+    - _nodeId: 5
+      _neighbourIds: 
+      _currentValue: 2
+      _nodeType: 1
+      _position: {x: 1, y: 1, z: 0}
+    - _nodeId: 6
+      _neighbourIds: 
+      _currentValue: 15
+      _nodeType: 0
+      _position: {x: 2, y: 1, z: 0}
+    - _nodeId: 7
+      _neighbourIds: 
+      _currentValue: 3
+      _nodeType: 1
+      _position: {x: 3, y: 1, z: 0}
+    - _nodeId: 8
+      _neighbourIds: 
+      _currentValue: 2
+      _nodeType: 1
+      _position: {x: 0, y: 2, z: 0}
+    - _nodeId: 9
+      _neighbourIds: 
+      _currentValue: 8
+      _nodeType: 0
+      _position: {x: 1, y: 2, z: 0}
+    - _nodeId: 10
+      _neighbourIds: 
+      _currentValue: 5
+      _nodeType: 1
+      _position: {x: 2, y: 2, z: 0}
+    - _nodeId: 11
+      _neighbourIds: 
+      _currentValue: 13
+      _nodeType: 0
+      _position: {x: 3, y: 2, z: 0}
+    - _nodeId: 12
+      _neighbourIds: 
+      _currentValue: 3
+      _nodeType: 0
+      _position: {x: 0, y: 3, z: 0}
+    - _nodeId: 13
+      _neighbourIds: 
+      _currentValue: 1
+      _nodeType: 1
+      _position: {x: 1, y: 3, z: 0}
+    - _nodeId: 14
+      _neighbourIds: 
+      _currentValue: 1
+      _nodeType: 0
+      _position: {x: 2, y: 3, z: 0}
+    - _nodeId: 15
+      _neighbourIds: 
+      _currentValue: 5
+      _nodeType: 1
+      _position: {x: 3, y: 3, z: 0}
+    - _nodeId: 16
+      _neighbourIds: 
+      _currentValue: 2
+      _nodeType: 1
+      _position: {x: 0, y: 4, z: 0}
+    - _nodeId: 17
+      _neighbourIds: 
+      _currentValue: 10
+      _nodeType: 0
+      _position: {x: 1, y: 4, z: 0}
+    - _nodeId: 18
+      _neighbourIds: 
+      _currentValue: 4
+      _nodeType: 1
+      _position: {x: 2, y: 4, z: 0}
+    - _nodeId: 19
+      _neighbourIds: 
+      _currentValue: 7
+      _nodeType: 0
+      _position: {x: 3, y: 4, z: 0}
+    - _nodeId: 20
+      _neighbourIds: 
+      _currentValue: 4
+      _nodeType: 0
+      _position: {x: 0, y: 5, z: 0}
+    - _nodeId: 21
+      _neighbourIds: 
+      _currentValue: 4
+      _nodeType: 1
+      _position: {x: 1, y: 5, z: 0}
+    - _nodeId: 22
+      _neighbourIds: 
+      _currentValue: 7
+      _nodeType: 0
+      _position: {x: 2, y: 5, z: 0}
+    - _nodeId: 23
+      _neighbourIds: 
+      _currentValue: 3
+      _nodeType: 1
+      _position: {x: 3, y: 5, z: 0}
+    - _nodeId: 24
+      _neighbourIds: 
+      _currentValue: 6
+      _nodeType: 1
+      _position: {x: 0, y: 6, z: 0}
+    - _nodeId: 25
+      _neighbourIds: 
+      _currentValue: 13
+      _nodeType: 0
+      _position: {x: 1, y: 6, z: 0}
+    - _nodeId: 26
+      _neighbourIds: 
+      _currentValue: 3
+      _nodeType: 1
+      _position: {x: 2, y: 6, z: 0}
+    - _nodeId: 27
+      _neighbourIds: 
+      _currentValue: 3
+      _nodeType: 0
+      _position: {x: 3, y: 6, z: 0}
+    - _nodeId: 28
+      _neighbourIds: 
+      _currentValue: 15
+      _nodeType: 0
+      _position: {x: 0, y: 7, z: 0}
+    - _nodeId: 29
+      _neighbourIds: 
+      _currentValue: 8
+      _nodeType: 1
+      _position: {x: 1, y: 7, z: 0}
+    - _nodeId: 30
+      _neighbourIds: 
+      _currentValue: 15
+      _nodeType: 0
+      _position: {x: 2, y: 7, z: 0}
+    - _nodeId: 31
+      _neighbourIds: 
+      _currentValue: 4
+      _nodeType: 1
+      _position: {x: 3, y: 7, z: 0}
+    - _nodeId: 32
+      _neighbourIds: 
+      _currentValue: 1
+      _nodeType: 1
+      _position: {x: 0, y: 8, z: 0}
+    - _nodeId: 33
+      _neighbourIds: 
+      _currentValue: 16
+      _nodeType: 0
+      _position: {x: 1, y: 8, z: 0}
+    - _nodeId: 34
+      _neighbourIds: 
+      _currentValue: 8
+      _nodeType: 1
+      _position: {x: 2, y: 8, z: 0}
+    - _nodeId: 35
+      _neighbourIds: 
+      _currentValue: 8
+      _nodeType: 0
+      _position: {x: 3, y: 8, z: 0}
+    - _nodeId: 36
+      _neighbourIds: 
+      _currentValue: 3
+      _nodeType: 0
+      _position: {x: 0, y: 9, z: 0}
+    - _nodeId: 37
+      _neighbourIds: 
+      _currentValue: 3
+      _nodeType: 1
+      _position: {x: 1, y: 9, z: 0}
+    - _nodeId: 38
+      _neighbourIds: 
+      _currentValue: 11
+      _nodeType: 0
+      _position: {x: 2, y: 9, z: 0}
+    - _nodeId: 39
+      _neighbourIds: 
+      _currentValue: 4
+      _nodeType: 1
+      _position: {x: 3, y: 9, z: 0}
