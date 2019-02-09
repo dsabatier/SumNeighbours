@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e61401864530ba347aba0fcb7ea2b74c, type: 3}
-  m_Name: Folder Name13
+  m_Name: Folder Name19
   m_EditorClassIdentifier: 
-  AverageNumberOfNeighbours: 1.8333334
-  NumberOfStartingNodes: 3
+  AverageNumberOfNeighbours: 2.1333334
+  NumberOfStartingNodes: 1
   NodeGraph:
     _nodes:
     - _nodeId: 0
@@ -22,8 +22,8 @@ MonoBehaviour:
       _nodeType: 1
       _position: {x: 0, y: 0, z: 0}
     - _nodeId: 1
-      _neighbourIds: 0200000000000000
-      _currentValue: 8
+      _neighbourIds: 000000000200000004000000
+      _currentValue: 16
       _nodeType: 0
       _position: {x: 1, y: 0, z: 0}
     - _nodeId: 2
@@ -32,47 +32,62 @@ MonoBehaviour:
       _nodeType: 1
       _position: {x: 2, y: 0, z: 0}
     - _nodeId: 3
-      _neighbourIds: 0000000004000000
-      _currentValue: 10
+      _neighbourIds: 00000000
+      _currentValue: 7
       _nodeType: 0
       _position: {x: 0, y: 1, z: 0}
     - _nodeId: 4
-      _neighbourIds: 0300000007000000
+      _neighbourIds: 0100000007000000
       _currentValue: 0
       _nodeType: 1
       _position: {x: 1, y: 1, z: 0}
     - _nodeId: 5
-      _neighbourIds: 02000000
-      _currentValue: 1
+      _neighbourIds: 0200000008000000
+      _currentValue: 13
       _nodeType: 0
       _position: {x: 2, y: 1, z: 0}
     - _nodeId: 6
-      _neighbourIds: 07000000
+      _neighbourIds: 0700000009000000
       _currentValue: 0
       _nodeType: 1
       _position: {x: 0, y: 2, z: 0}
     - _nodeId: 7
-      _neighbourIds: 0400000008000000060000000a000000
-      _currentValue: 16
+      _neighbourIds: 080000000400000006000000
+      _currentValue: 20
       _nodeType: 0
       _position: {x: 1, y: 2, z: 0}
     - _nodeId: 8
-      _neighbourIds: 070000000b000000
+      _neighbourIds: 05000000070000000b000000
       _currentValue: 0
       _nodeType: 1
       _position: {x: 2, y: 2, z: 0}
     - _nodeId: 9
-      _neighbourIds: 0a000000
-      _currentValue: 8
+      _neighbourIds: 060000000a000000
+      _currentValue: 15
       _nodeType: 0
       _position: {x: 0, y: 3, z: 0}
     - _nodeId: 10
-      _neighbourIds: 0700000009000000
+      _neighbourIds: 090000000b000000
       _currentValue: 0
       _nodeType: 1
       _position: {x: 1, y: 3, z: 0}
     - _nodeId: 11
-      _neighbourIds: 08000000
-      _currentValue: 2
+      _neighbourIds: 080000000a0000000e000000
+      _currentValue: 22
       _nodeType: 0
       _position: {x: 2, y: 3, z: 0}
+    - _nodeId: 12
+      _neighbourIds: 0d000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 0, y: 4, z: 0}
+    - _nodeId: 13
+      _neighbourIds: 0e0000000c000000
+      _currentValue: 14
+      _nodeType: 0
+      _position: {x: 1, y: 4, z: 0}
+    - _nodeId: 14
+      _neighbourIds: 0b0000000d000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 2, y: 4, z: 0}

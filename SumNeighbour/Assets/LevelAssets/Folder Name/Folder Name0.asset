@@ -12,5 +12,82 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e61401864530ba347aba0fcb7ea2b74c, type: 3}
   m_Name: Folder Name0
   m_EditorClassIdentifier: 
-  AverageNumberOfNeighbours: 2.1333334
-  NumberOfStartingNodes: 0
+  AverageNumberOfNeighbours: 1.8666667
+  NumberOfStartingNodes: 1
+  NodeGraph:
+    _nodes:
+    - _nodeId: 0
+      _neighbourIds: 0100000005000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 0, y: 0, z: 0}
+    - _nodeId: 1
+      _neighbourIds: 0200000000000000
+      _currentValue: 5
+      _nodeType: 0
+      _position: {x: 1, y: 0, z: 0}
+    - _nodeId: 2
+      _neighbourIds: 0100000003000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 2, y: 0, z: 0}
+    - _nodeId: 3
+      _neighbourIds: 020000000400000008000000
+      _currentValue: 11
+      _nodeType: 0
+      _position: {x: 3, y: 0, z: 0}
+    - _nodeId: 4
+      _neighbourIds: 03000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 4, y: 0, z: 0}
+    - _nodeId: 5
+      _neighbourIds: 00000000
+      _currentValue: 4
+      _nodeType: 0
+      _position: {x: 0, y: 1, z: 0}
+    - _nodeId: 6
+      _neighbourIds: 070000000b000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 1, y: 1, z: 0}
+    - _nodeId: 7
+      _neighbourIds: 0800000006000000
+      _currentValue: 13
+      _nodeType: 0
+      _position: {x: 2, y: 1, z: 0}
+    - _nodeId: 8
+      _neighbourIds: 030000000900000007000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 3, y: 1, z: 0}
+    - _nodeId: 9
+      _neighbourIds: 080000000e000000
+      _currentValue: 12
+      _nodeType: 0
+      _position: {x: 4, y: 1, z: 0}
+    - _nodeId: 10
+      _neighbourIds: 0b000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 0, y: 2, z: 0}
+    - _nodeId: 11
+      _neighbourIds: 060000000a000000
+      _currentValue: 8
+      _nodeType: 0
+      _position: {x: 1, y: 2, z: 0}
+    - _nodeId: 12
+      _neighbourIds: 0d000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 2, y: 2, z: 0}
+    - _nodeId: 13
+      _neighbourIds: 0e0000000c000000
+      _currentValue: 9
+      _nodeType: 0
+      _position: {x: 3, y: 2, z: 0}
+    - _nodeId: 14
+      _neighbourIds: 090000000d000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 4, y: 2, z: 0}

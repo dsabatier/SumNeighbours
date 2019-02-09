@@ -21,6 +21,9 @@ public class NumberNodeBehaviour : NodeBehaviour
 
     public override void SelectNode(Node node)
     {
+        if (_dragging)
+            return;
+        
         if (node == _node)
         {
             _onSelected.Invoke();

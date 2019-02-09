@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Noodlepop.VariableAssets;
 using UnityEngine.Analytics;
+using UnityEngine.Events;
 
 namespace SumNeighbours
 {
@@ -26,6 +27,8 @@ namespace SumNeighbours
         [Space(4)]
         [SerializeField] protected GameEventMoveMade _moveMadeEvent;
 
+        protected bool _dragging = false;
+
         private void Reset()
         {
             _text = GetComponentInChildren<Text>();
@@ -48,6 +51,12 @@ namespace SumNeighbours
         {
             _onTap.Invoke(_node);
         }
+
+        public void ToggleDrag(bool dragging)
+        {
+            _dragging = dragging;
+        }
+        
 
         /// <summary>
         /// Change the current value of a node

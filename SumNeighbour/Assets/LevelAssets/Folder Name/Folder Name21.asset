@@ -12,5 +12,67 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e61401864530ba347aba0fcb7ea2b74c, type: 3}
   m_Name: Folder Name21
   m_EditorClassIdentifier: 
-  AverageNumberOfNeighbours: 2.1333334
-  NumberOfStartingNodes: 5
+  AverageNumberOfNeighbours: 2
+  NumberOfStartingNodes: 2
+  NodeGraph:
+    _nodes:
+    - _nodeId: 0
+      _neighbourIds: 01000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 0, y: 0, z: 0}
+    - _nodeId: 1
+      _neighbourIds: 020000000000000005000000
+      _currentValue: 16
+      _nodeType: 0
+      _position: {x: 1, y: 0, z: 0}
+    - _nodeId: 2
+      _neighbourIds: 030000000100000006000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 2, y: 0, z: 0}
+    - _nodeId: 3
+      _neighbourIds: 02000000
+      _currentValue: 5
+      _nodeType: 0
+      _position: {x: 3, y: 0, z: 0}
+    - _nodeId: 4
+      _neighbourIds: 05000000
+      _currentValue: 8
+      _nodeType: 0
+      _position: {x: 0, y: 1, z: 0}
+    - _nodeId: 5
+      _neighbourIds: 06000000010000000400000009000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 1, y: 1, z: 0}
+    - _nodeId: 6
+      _neighbourIds: 020000000500000007000000
+      _currentValue: 14
+      _nodeType: 0
+      _position: {x: 2, y: 1, z: 0}
+    - _nodeId: 7
+      _neighbourIds: 060000000b000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 3, y: 1, z: 0}
+    - _nodeId: 8
+      _neighbourIds: 09000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 0, y: 2, z: 0}
+    - _nodeId: 9
+      _neighbourIds: 0500000008000000
+      _currentValue: 10
+      _nodeType: 0
+      _position: {x: 1, y: 2, z: 0}
+    - _nodeId: 10
+      _neighbourIds: 0b000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 2, y: 2, z: 0}
+    - _nodeId: 11
+      _neighbourIds: 070000000a000000
+      _currentValue: 3
+      _nodeType: 0
+      _position: {x: 3, y: 2, z: 0}
