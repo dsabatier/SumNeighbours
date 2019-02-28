@@ -49,7 +49,8 @@ namespace SumNeighbours
 
         public void OnTap()
         {
-            _onTap.Invoke(_node);
+            if(!_dragging)
+                _onTap.Invoke(_node);
         }
 
         public void ToggleDrag(bool dragging)

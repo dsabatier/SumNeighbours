@@ -32,8 +32,15 @@ namespace SumNeighbours
             Node bottomLeft = _nodeGraph.GetNode(0);
             Node topRight = _nodeGraph.GetNode(_nodeGraph.Nodes.Count - 1);
 
-            float x = topRight.Position.x - bottomLeft.Position.x;
-            float y = topRight.Position.y - bottomLeft.Position.y;
+
+            float x = (topRight.Position.x * _graphScale - bottomLeft.Position.x * _graphScale) / 2;
+            float y = (topRight.Position.y * _graphScale - bottomLeft.Position.y * _graphScale) / 2;
+
+            float nodeWidthCount = topRight.Position.x;
+            float nodeHeightCount = topRight.Position.y;
+
+
+            _camera.orthographicSize = Mathf.Min(nodeHeightCount, nodeWidthCount) * _graphScale;
             
             _camera.transform.position = new Vector3(x, y, _camera.transform.position.z);
             _camera.GetComponent<TouchDragCamera>().SetBounds(bottomLeft.Position * _graphScale, topRight.Position * _graphScale);

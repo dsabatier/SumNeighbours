@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e61401864530ba347aba0fcb7ea2b74c, type: 3}
+  m_Name: (2)4x4 34
+  m_EditorClassIdentifier: 
+  AverageNumberOfNeighbours: 2
+  NumberOfStartingNodes: 2
+  LevelName: 
+  NodeGraph:
+    _nodes:
+    - _nodeId: 0
+      _neighbourIds: 01000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 0, y: 0, z: 0}
+    - _nodeId: 1
+      _neighbourIds: 020000000000000005000000
+      _currentValue: 19
+      _nodeType: 0
+      _position: {x: 1, y: 0, z: 0}
+    - _nodeId: 2
+      _neighbourIds: 0300000001000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 2, y: 0, z: 0}
+    - _nodeId: 3
+      _neighbourIds: 0200000007000000
+      _currentValue: 12
+      _nodeType: 0
+      _position: {x: 3, y: 0, z: 0}
+    - _nodeId: 4
+      _neighbourIds: 05000000
+      _currentValue: 7
+      _nodeType: 0
+      _position: {x: 0, y: 1, z: 0}
+    - _nodeId: 5
+      _neighbourIds: 01000000040000000600000009000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 1, y: 1, z: 0}
+    - _nodeId: 6
+      _neighbourIds: 050000000a000000
+      _currentValue: 14
+      _nodeType: 0
+      _position: {x: 2, y: 1, z: 0}
+    - _nodeId: 7
+      _neighbourIds: 03000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 3, y: 1, z: 0}
+    - _nodeId: 8
+      _neighbourIds: 09000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 0, y: 2, z: 0}
+    - _nodeId: 9
+      _neighbourIds: 05000000080000000a000000
+      _currentValue: 21
+      _nodeType: 0
+      _position: {x: 1, y: 2, z: 0}
+    - _nodeId: 10
+      _neighbourIds: 09000000060000000b0000000e000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 2, y: 2, z: 0}
+    - _nodeId: 11
+      _neighbourIds: 0a0000000f000000
+      _currentValue: 12
+      _nodeType: 0
+      _position: {x: 3, y: 2, z: 0}
+    - _nodeId: 12
+      _neighbourIds: 0d000000
+      _currentValue: 3
+      _nodeType: 0
+      _position: {x: 0, y: 3, z: 0}
+    - _nodeId: 13
+      _neighbourIds: 0e0000000c000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 1, y: 3, z: 0}
+    - _nodeId: 14
+      _neighbourIds: 0a0000000d000000
+      _currentValue: 10
+      _nodeType: 0
+      _position: {x: 2, y: 3, z: 0}
+    - _nodeId: 15
+      _neighbourIds: 0b000000
+      _currentValue: 0
+      _nodeType: 1
+      _position: {x: 3, y: 3, z: 0}

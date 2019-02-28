@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 61}
   - component: {fileID: 152}
   - component: {fileID: 1678937524571643946}
+  - component: {fileID: 333670880}
   m_Layer: 5
   m_Name: Tap to Continue
   m_TagString: Untagged
@@ -62,8 +63,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 86}
   - {fileID: 6484600690321280129}
+  - {fileID: 432439654}
   m_Father: {fileID: 1136798146993327380}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -154,7 +155,24 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
---- !u!1 &50
+--- !u!114 &333670880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!1 &432439653
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,57 +180,57 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 86}
-  - component: {fileID: 63}
-  - component: {fileID: 177}
+  - component: {fileID: 432439654}
+  - component: {fileID: 432439656}
+  - component: {fileID: 432439655}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Instructions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &86
+--- !u!224 &432439654
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 50}
+  m_GameObject: {fileID: 432439653}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 77}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 254.99803}
-  m_SizeDelta: {x: 800, y: 1421.1}
+  m_AnchoredPosition: {x: 342.69992, y: 0}
+  m_SizeDelta: {x: 531.6, y: 569.3}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &63
+--- !u!222 &432439656
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 50}
+  m_GameObject: {fileID: 432439653}
   m_CullTransparentMesh: 0
---- !u!114 &177
+--- !u!114 &432439655
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 50}
+  m_GameObject: {fileID: 432439653}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -220,19 +238,32 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 4ae92a71bc6eb4b4696511334909aeef, type: 3}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: af574b7d383506c40b859b301b574868, type: 3}
+    m_FontSize: 28
     m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 7
-    m_MaxSize: 26
-    m_Alignment: 4
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SumNeighbours
+  m_Text: 'Rules:
+
+
+    1. Every square is a <b>rule node</b>.
+
+    2. Every circle is a <b>number node</b>.
+
+    3. <b>Number nodes</b> can be changed by selecting it and then picking the number
+    you want it to be.
+
+    4. <b>Rule nodes</b> have a number displayed.  The sum of all <b>number nodes</b>
+    connected to a <b>rule node</b> must be that value.
+
+    5. When all <b>rule nodes</b> have been completed, the player wins.'
 --- !u!1 &4811461488008918494
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,12 +294,12 @@ RectTransform:
   m_LocalScale: {x: 0.99997765, y: 0.99997765, z: 0.99997765}
   m_Children: []
   m_Father: {fileID: 77}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -525}
-  m_SizeDelta: {x: 800, y: 1421.1}
+  m_AnchoredPosition: {x: -280.50003, y: 0}
+  m_SizeDelta: {x: 561, y: 87.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9152730921542947580
 CanvasRenderer:
@@ -291,7 +322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

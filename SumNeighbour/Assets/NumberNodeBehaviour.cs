@@ -27,9 +27,12 @@ public class NumberNodeBehaviour : NodeBehaviour
         if (node == _node)
         {
             _onSelected.Invoke();
+            GetComponent<Renderer>().material = _selectedMaterial;
         }
-        
-        GetComponent<Renderer>().material = node == _node ? _selectedMaterial : _normalMaterial;
+        else
+        {
+            GetComponent<Renderer>().material = _normalMaterial;
+        }
     }
 
     public override void ResetNodeValue()

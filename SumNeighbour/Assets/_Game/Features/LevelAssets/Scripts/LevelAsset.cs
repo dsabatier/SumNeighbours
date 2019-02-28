@@ -10,7 +10,7 @@ namespace SumNeighbours
     {
         public float AverageNumberOfNeighbours;
         public int NumberOfStartingNodes;
-
+        public string LevelName;
         public NodeGraph NodeGraph;
     }
 }

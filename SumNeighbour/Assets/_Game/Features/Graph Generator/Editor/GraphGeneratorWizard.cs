@@ -54,7 +54,7 @@ namespace SumNeighbours.EditorTools
                 levelAsset.AverageNumberOfNeighbours = levelAsset.NodeGraph.GetAverageNumberOfNeighbours();
                 levelAsset.NumberOfStartingNodes = levelAsset.NodeGraph.GetNumberOfStartingNodes();
 
-                string levelName = _fileName + i.ToString();
+                string levelName = "(" + levelAsset.NumberOfStartingNodes + ")" + _fileName + " " + levelNames.Value.Count.ToString();
                 levelNames.DefaultValue.Add(levelName);
 
                 AssetDatabase.CreateAsset(levelAsset, Path.Combine(directoryPath, levelName + ".asset"));

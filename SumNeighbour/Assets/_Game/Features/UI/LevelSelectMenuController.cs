@@ -31,7 +31,7 @@ namespace SumNeighbours
             foreach (LevelAsset level in _levels)
             {
                 GameObject button = Instantiate(_levelButtonPrefab, _contentTransform, false);
-                button.GetComponentInChildren<Text>().text = level.name;
+                button.GetComponentInChildren<Text>().text = string.IsNullOrEmpty(level.LevelName) ? level.name : level.LevelName;
                 button.GetComponent<Button>().onClick.AddListener(() => LoadLevel(level));
             }
             
